@@ -138,7 +138,8 @@ h1, h2, h3, h4, h5, h6, .title {
     color: #f0f1f2;
     padding: 5px 16px;
 }
-.main-menu li a:hover {background-color: #1e5daf;}
+.main-menu li a:hover {background-color: #184679;}
+.main-menu li.pure-menu-disabled a:hover {background-color: #3290F9;}
 
 
 .content .wrapper {
@@ -170,7 +171,7 @@ h1, h2, h3, h4, h5, h6, .title {
    #1e5daf - dark blue
    ========================================================================== */
 .intro, .typography {background-color: #ecf0f3; color: #212223;}
-.colour {background-color: #344A5F; color: #f0f1f2;}
+.colour {background-color: #212D3C; color: #f0f1f2;}
 
 .wrapper p + ul.inline-grid {margin-top: 3em;}
 
