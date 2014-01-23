@@ -9,6 +9,11 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 html,
 button,
@@ -93,11 +98,140 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ==========================================================================
+   Colour Palette:
+
+   #ffffff - white
+   #ecf0f3 - faded white
+   #f0f1f2 - slate grey
+   #fdab33 — orange yellow
+   #fec877 - sand yellow
+   #3290F9 - primary corporate blue
+   #1e5daf - dark blue
+
+   ========================================================================== */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+body,
+.body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
+    font-size: 100%;
+    line-height: 1.562em;
+    color: #212223;
+}
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
+    font-weight: bold;
+    line-height: 1.25em;
+    /*font-family: "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif;*/
+}
+
+.masthead {
+    background-color: #3290F9;
+    color: #ffffff;
+}
+.masthead .main-menu {
+    text-align: left;
+    background-color: #3290F9;
+    color: #ffffff;
+}
+.main-menu ul {float: right;}
+.main-menu .pure-menu-heading {
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #14406A;
+
+}
+.main-menu li a {
+    color: #f0f1f2;
+    padding: 5px 16px;
+}
+.main-menu li a:hover {background-color: #1e5daf;}
+
+.content .wrapper {
+    max-width: 686px;
+    padding: 6em 0;
+}
+
+.content p {
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+.section-title {text-align: center; margin-top: 0;}
+
+.footer {
+    background-color: #3290F9;
+    color: #ffffff;
+}
+.masthead .wrapper,
+.footer .wrapper {padding: 1em 1.25em;}
+.footer .logo {float: left; max-width: 128px;}
+.footer .copyrights {float: right;}
 
 
+/* ==========================================================================
+   Section colours
+   ========================================================================== */
+.intro {background-color: #ecf0f3;}
+.colour {background-color: #344A5F; color: #f0f1f2;}
 
 
+.colour-grid {
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 6em;
+}
+.colour-grid:last-child {margin-bottom: 0;}
+.colour-grid li {
+    display: block;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.colour-grid.short li {
+    width: 22%;
+    margin-right: 4%;
+}
+.colour-grid.long li {
+    width: 15%;
+    margin-right: 2%;
+}
 
+.colour-grid li:last-child {margin-right: 0;}
+.colour-grid .colour-item {
+    width: 100%;
+    height: 128px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.colour-grid .colour-item.c-1 {background-color: #3D5979;}
+.colour-grid .colour-item.c-2 {background-color: #3290F9;}
+.colour-grid .colour-item.c-3 {background-color: #F1F2F3;}
+.colour-grid .colour-item.c-4 {background-color: #ffffff;}
+.colour-grid .colour-item.c-5 {background-color: #F9B132;}
+.colour-grid .colour-item.c-6 {background-color: #C65614;}
+.colour-grid .colour-item.c-7 {background-color: #FA594B;}
+.colour-grid .colour-item.c-8 {background-color: #ADC614;}
+.colour-grid .colour-item.c-9 {background-color: #7DB8FA;}
+.colour-grid .colour-item.c-10 {background-color: #794E00;}
+.colour-grid .desc {padding: 0.75em 0;}
+.colour-grid .desc h4,
+.colour-grid .desc p {
+    font-size: 0.813em;
+    margin: 0;
+    color: #838485;
+    line-height: 1;
+}
 
 
 
