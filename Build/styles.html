@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>WFP UI Style Guide&mdashStyles</title>
+    <title>WFP UI Style Guide—Styles</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
@@ -135,27 +135,27 @@
 		<h1 class="section-title">Typography</h1>
 		<p>Typography plays a critical role in a design. It adds personality to content, becomes its voice. When it's established poorly, elements become unreadable, or badly aligned, thus reducing the impact a given piece of content will have on the reader.</p>
 		<p><strong>Myriad Pro</strong> type family is our primary typeface for web presentation; a nice, humanist sans-serif font, that has huge capabilities, both visual and multilingual. It can be used for both, headlines and paragraphs alike, as well as interface elements.</p>
-		<ul class="inline-grid short clearfix sans">
+		<ul class="inline-grid short clearfix">
 			<li>
-				<div class="inline-item type-light">Aa</div>
+				<div class="inline-item type-light sans">Aa</div>
 				<div class="desc">
 					<p>Light</p>
 				</div>
 			</li>
 			<li>
-				<div class="inline-item type-medium">Aa</div>
+				<div class="inline-item type-medium sans">Aa</div>
 				<div class="desc">
 					<p>Medium</p>
 				</div>
 			</li>
 			<li>
-				<div class="inline-item type-semi">Aa</div>
+				<div class="inline-item type-semi sans">Aa</div>
 				<div class="desc">
 					<p>Semibold</p>
 				</div>
 			</li>
 			<li>
-				<div class="inline-item type-bold">Aa</div>
+				<div class="inline-item type-bold sans">Aa</div>
 				<div class="desc">
 					<p>Bold</p>
 				</div>
@@ -163,27 +163,27 @@
 		</ul>
 		
 		<p><strong>FF Meta Serif Web Pro</strong> is a great typeface that is easy on the eye and covers a wide range on applications, from large headlines to small print type. Although it looks great in both paragraphs and headlines, <em>it should be used sparingly where a slight emphasis is required</em>, such as main article page titles, introductions, or photo descriptions.</p>
-		<ul class="inline-grid short clearfix serif">
+		<ul class="inline-grid short clearfix">
 			<li>
-				<div class="inline-item type-medium">Aa</div>
+				<div class="inline-item type-medium serif">Aa</div>
 				<div class="desc">
 					<p>Medium</p>
 				</div>
 			</li>
 			<li>
-				<div class="inline-item type-medium-i">Aa</div>
+				<div class="inline-item type-medium-i serif">Aa</div>
 				<div class="desc">
 					<p>Medium Italic</p>
 				</div>
 			</li>
 			<li>
-				<div class="inline-item type-bold">Aa</div>
+				<div class="inline-item type-bold serif">Aa</div>
 				<div class="desc">
 					<p>Bold</p>
 				</div>
 			</li>
 			<li>
-				<div class="inline-item type-bold-i">Aa</div>
+				<div class="inline-item type-bold-i serif">Aa</div>
 				<div class="desc">
 					<p>Bold Italic</p>
 				</div>
@@ -191,11 +191,42 @@
 		</ul>
 
 		<h2 class="section-title">Typography Guidelines</h2>
-		<p>Guidelines below will help you establish a good visual tone and arrange content in a readable, scannable way. These are just guidelines, so you may occassionally <em>break the rules</em> when needed.</p>
+		<p>Guidelines below will help you establish a good visual tone and arrange content in a readable, scannable way.</p>
 
 		<h3>Sizing Your Type</h3>
 		<p>The size of your text is as important for your message, as your WFP colours are to its branding. When the type is too small or too large, it becomes illegible, thus increasing the strain on the reader's eyes, making reading uncomfortable.</p>
-		<p>To counter this problem, you should use the native browser font size, which is <strong>by default 16 pixels</strong>, as your default font-size, with a custom <strong>line-height of 1.5</strong> of the font-size. This will make sure your text is legible and readable.</p>
+		<p>To counter this problem, you should use the native browser font size, which is <strong>by default 16 pixels</strong>, as your default font-size, with a custom <strong>line-height of 1.5x</strong> of the font-size. This will make your text legible and readable.</p>
+
+		<h6>Example Font Sizes</h6>
+		<ul>
+			<li><em>13px</em>—an absolute minimum, used only for small interface elements, or small print (notices, image descriptions); not intended for main body text;</li>
+			<li><em>16px</em>—our base font size, used for majority of things, from body text, to interface elements; it's a minimum recommended size for body text;</li>
+			<li><em>13–32px</em>—a range of sizes covering headings, from the smallest, to the largest; these should always be displayed in bold.</li>
+		</ul>
+
+		<div class="type-sizes">
+      <h4 class="label">32px</h4>
+      <h1 class="example">The quick brown fox jumps over the lazy dog.</h1>
+      <h4 class="label">24px</h4>
+      <h2 class="example">The quick brown fox jumps over the lazy dog.</h2>
+      <h4 class="label">18px</h4>
+      <h3 class="example">The quick brown fox jumps over the lazy dog.</h3>
+      <h4 class="label">16px</h4>
+      <h4 class="example">The quick brown fox jumps over the lazy dog.</h4>
+      <h4 class="label">14px</h4>
+      <h5 class="example">The quick brown fox jumps over the lazy dog.</h5>
+      <h4 class="label">13px</h4>
+      <h6 class="example">The quick brown fox jumps over the lazy dog.</h6>
+    </div>
+
+    <h3><em>Dos</em> and <em>Don'ts</em></h3>
+    <ul>
+    	<li><em>Don't</em> try to mix two typefaces within a single section, such as a paragraph or a heading. If you need to differentiate a piece of text, use <em>stressed emphasis</em> or <strong>strong importance</strong>.</li>
+      <li><em>Don't</em> try to mix different sizes of text within a single section or use editing tools to apply styling or colour to the text yourself manually. Underlines are allowed only on links, but they belong to a different set of styles, separated from the above guidelines.</li>
+      <li><em>Always</em> keep the colour contrast in mind. Your copy should be readable and easy on the eye. Try to avoid using solid white or black to style text and/or background. Our basic body text colour is <code>#303132</code> and we use <code>#f8f8f8</code> for the background.</li>
+      <li><em>Always</em> keep your content plain and simple. Don't add unnecessary formatting where it's not required and leave styling the content to your desiger. This will ensure all of the content looks consistent.</li>
+     </ul>
+
 	</div>
 
 
@@ -209,7 +240,7 @@
 					<p>WFP UI &amp; UX</p>
 				</div>
 				<div class="copyrights">
-					<p>2014 &copy; WFP Communications Division. All Rights Reserved.</p>
+					<p>2014 &copy; World Food Programme. All Rights Reserved.</p>
 				</div>
 			</div>
 		</footer>

@@ -97,11 +97,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body {padding-top: 4em;}
 .wrapper {
     margin: 0 auto;
     max-width: 1000px;
 }
+.masthead .wrapper,
+.footer .wrapper {padding: 1em 1.25em;}
 
 body,
 .body,
@@ -110,7 +112,7 @@ body,
     font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
     font-size: 100%;
     line-height: 1.562em;
-    color: #212223;
+    color: #303132;
 }
 h1, h2, h3, h4, h5, h6, .title {
     font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
@@ -118,10 +120,25 @@ h1, h2, h3, h4, h5, h6, .title {
     line-height: 1.25em;
     /*font-family: "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif;*/
 }
+h5 {font-size: 14px;}
+h6 {
+    color: #777777;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+strong {font-weight: 600;}
+menu, ol, ul {padding: 0 0 0 24px;}
+ul {list-style: square;}
+ul li {margin-bottom: 0.5em;}
 
 .masthead {
     background-color: #3290F9;
     color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
 }
 .masthead .main-menu {
     text-align: left;
@@ -150,11 +167,10 @@ h1, h2, h3, h4, h5, h6, .title {
 .section-center {text-align: center;}
 
 .footer {
-    background-color: #3290F9;
-    color: #ffffff;
+    background-color: #e0e1e2;
+    border-top: 1px solid #dadada;
+    color: #909192;
 }
-.masthead .wrapper,
-.footer .wrapper {padding: 1em 1.25em;}
 .footer .logo {float: left; max-width: 128px;}
 .footer .copyrights {float: right;}
 
@@ -170,7 +186,7 @@ h1, h2, h3, h4, h5, h6, .title {
    #3290F9 - primary corporate blue
    #1e5daf - dark blue
    ========================================================================== */
-.intro, .typography {background-color: #ecf0f3; color: #212223;}
+.intro, .typography {background-color: #f8f8f8; color: #303132;}
 .colour {background-color: #212D3C; color: #f0f1f2;}
 
 .wrapper p + ul.inline-grid {margin-top: 3em;}
@@ -191,6 +207,7 @@ h1, h2, h3, h4, h5, h6, .title {
     text-align: center;
     border-radius: 3px;
     overflow: hidden;
+    margin-bottom: 0;
 }
 .inline-grid.short li {
     width: 22%;
@@ -205,7 +222,7 @@ h1, h2, h3, h4, h5, h6, .title {
 .inline-grid .inline-item {
     width: 100%;
     height: 128px;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #eaebec;
     line-height: 128px;
     font-size: 48px;
 }
@@ -231,8 +248,9 @@ h1, h2, h3, h4, h5, h6, .title {
 .inline-grid .desc h4 {font-weight: 600;}
 
 
-.inline-grid.sans .inline-item {font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;}
-.inline-grid.serif .inline-item {font-family: "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif;}
+.sans {font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;}
+.serif {font-family: "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif;}
+
 .type-light {font-weight: 300;}
 .type-medium {font-weight: 400;}
 .type-medium-i {font-weight: 400; font-style: italic;}
@@ -240,6 +258,18 @@ h1, h2, h3, h4, h5, h6, .title {
 .type-bold {font-weight: 700;}
 .type-bold-i {font-weight: 700; font-style: italic;}
 
+.type-sizes {text-align: center; margin: 4em 0;}
+.type-sizes .label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3D5979;
+    margin-bottom: 0;
+}
+.example {
+    font-weight: 300;
+    text-transform: none;
+    margin-top: 0;
+}
 
 
 
