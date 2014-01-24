@@ -131,6 +131,13 @@ strong {font-weight: 600;}
 menu, ol, ul {padding: 0 0 0 24px;}
 ul {list-style: square;}
 ul li {margin-bottom: 0.5em;}
+a {
+    color: #0192ff;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+a:visited {color: #7DB8FA;}
+a:hover {color: #C65614;}
 
 .masthead {
     background-color: #3290F9;
