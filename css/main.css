@@ -202,7 +202,8 @@ pre {
 .intro, .typography {background-color: #f8f8f8; color: #303132;}
 .colour, .images {background-color: #212D3C; color: #f0f1f2;}
 
-.wrapper p + ul.inline-grid {margin-top: 3em;}
+.wrapper p + ul.inline-grid,
+.pure-table + h2 {margin-top: 3em;}
 
 .inline-grid {
     padding: 0;
