@@ -138,6 +138,12 @@ a {
 }
 a:visited {color: #184679;}
 a:hover {color: #C65614;}
+pre {
+    font-family: "Inconsolata", "Source Code Pro", "Consolas", "Lucida Console", monospace;
+    font-size: 13px;
+    background: #f0f1f2;
+    padding: 0.5em 1em;
+}
 
 .masthead {
     background-color: #3290F9;
@@ -194,7 +200,7 @@ a:hover {color: #C65614;}
    #1e5daf - dark blue
    ========================================================================== */
 .intro, .typography {background-color: #f8f8f8; color: #303132;}
-.colour {background-color: #212D3C; color: #f0f1f2;}
+.colour, .images {background-color: #212D3C; color: #f0f1f2;}
 
 .wrapper p + ul.inline-grid {margin-top: 3em;}
 
