@@ -12,8 +12,11 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/base-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/menus-nr-min.css">
     <link rel='stylesheet' href='css/main.css'>
+<link rel='stylesheet' href='css/buttons.css'>
+<link rel='stylesheet' href='css/forms.css'>
     
     <script type="text/javascript" src="//use.typekit.net/eav6fth.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -39,10 +42,124 @@
       </div>
     </header>
 
-<section class="content">
+<section class="content components">
 	<div class="wrapper">
 		<h1 class="section-title">Components</h1>
-		
+		<p>Each web page is built using several components. This page is a library of basic building blocks you can use to design your pages.</p>
+		<p>To do this efficiently, you can download our custom CSS file and apply classes outlined below to your markup. It's virtually effortless.</p>
+
+		<h3>Buttons</h3>
+		<p>We use several buttons for you to choose from, make sure you apply only styles intended for a given element, to make sure it doesn't stand out too much or doesn't bear a different meaning.</p>
+
+		<h6>Primary Button</h6>
+		<p>Primary buttons are only used when there is a clear need for a call-to-action. An example of this is a Send button on an contact form, or a Subscribe button on a newsletter subscription form.</p>
+
+		<div class="preview">
+			<button class="btn btn-primary size-full">Primary Button</button>
+		</div>
+
+		<pre><code>&lt;button class="btn btn-primary size-full"&gt;Primary Button&lt;/button&gt;</code></pre>
+
+		<h6>Secondary Button</h6>
+		<p>Secondary buttons are used as a general UI block, for pretty much anything you need.</p>
+
+		<div class="preview">
+			<button class="btn btn-secondary size-full">Secondary Button</button>
+		</div>
+
+		<pre><code>&lt;button class="btn btn-secondary size-full"&gt;Primary Button&lt;/button&gt;</code></pre>
+
+		<h3>Checkbox</h3>
+		<p>Checkboxes are used to represent a boolean field, where the value is either true or false. Checkbox is always wrapped around a label.</p>
+
+		<div class="preview form">
+			<label class="input-checkbox" for="sample-1">
+				<input type="checkbox" class="checkbox" id="sample-1">Sample Checkbox
+			</label>
+		</div>
+
+		<pre><code>&lt;label class="input-checkbox" for="sample-1"&gt;&lt;input type="checkbox" id="sample-1"&gt;Sample Checkbox&lt;/label&gt;</code></pre>
+
+		<h3>Radio Button</h3>
+		<p>Radios are used to allow the user to choose between several options.</p>
+
+		<div class="preview form">
+			<label class="input-radio" for="option-one">
+				<input id="option-one" class="radio" type="radio" name="options" value="1">Sample Radio
+			</label>
+		</div>
+
+		<pre>&lt;label for="option-one" class="input-radio"&gt;
+  &lt;input id="option-one" class="radio" type="radio" name="options" value="1" checked&gt; Radio Button 1
+&lt;/label&gt;</pre>
+
+		<h3>Input Fields</h3>
+		<p>There are several types of input fields, each serves a different purpose and should be used according to this purpose. Make sure you also use the <em>placeholder</em> attribute to add a in-field label to it.</p>
+
+		<h6>Text Field</h6>
+		<p>Most basic form component, can be used for a large variety of data.</p>
+
+		<div class="preview form">
+			<input id="name" type="text" placeholder="Your Name">
+		</div>
+
+		<pre><code>&lt;input id="name" type="text" placeholder="Your Name"&gt;</code></pre>
+
+		<h6>Email Field</h6>
+		<p>This input field works almost exactly like text field, with a small addition: on capable touch screen devices it displays an email-oriented on-screen keyboard to aid input. Can be used for registration and authentication forms that require an email.</p>
+
+		<div class="preview form">
+			<input id="name" type="email" placeholder="Email">
+		</div>
+
+		<pre><code>&lt;input id="email" type="email" placeholder="Email"&gt;</code></pre>
+
+		<h6>Telephone Field</h6>
+		<p>Just like in case of the email field, telephone field indicates to a mobile browser that a on-screen number keypad shall be displayed instead of a standard QWERTY keyboard. It can be used to aid input of telephone, credit card or any other numeric value on touch screen devices and beyond.</p>
+
+		<div class="preview form">
+			<input id="name" type="tel" placeholder="Telephone">
+		</div>
+
+		<pre><code>&lt;input id="telephone" type="tel" placeholder="Telephone"&gt;</code></pre>
+
+		<h6>Password Field</h6>
+		<p>Whenever there's a requirement for passwords to be input, use this field. It masks the input, but can take any value regardless.</p>
+
+		<div class="preview form">
+			<input id="name" type="password" placeholder="Password" value="password123">
+		</div>
+
+		<pre><code>&lt;input id="password" type="password" placeholder="Password"&gt;</code></pre>
+
+		<h3>Select Box</h3>
+		<p>This box should only be used for picking an option from a collection of no more than 5-8 items.</p>
+
+		<div class="preview form">
+			<label for="select">Select an option:</label>
+			<select id="select" class="select">
+				<option>Option #1</option>
+				<option>Option #2</option>
+				<option>Option #3</option>
+			</select>
+		</div>
+
+<pre><code>&lt;label for="state"&gt;Select an option:&lt;/label&gt;
+&lt;select id="select" class="select"&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;option&gt;Option 3&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+
+		<h3>Textarea</h3>
+		<p>Text areas are large inputs where users can type and view larger blocks of text. They can also have buttons attached to the bottom.</p>
+
+		<div class="preview form">
+			<textarea name="default" class="textarea size-large" placeholder="This is a text area."></textarea>
+		</div>
+
+		<pre><code>&lt;textarea name="default" placeholder="This is a text area." class="textarea size-large"&gt;&lt;/textarea&gt;</code></pre>
 	</div>
 </section>
 
