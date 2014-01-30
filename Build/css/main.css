@@ -139,7 +139,7 @@ a {
 a:visited {color: #184679;}
 a:hover {color: #C65614;}
 pre {
-    font-family: "Inconsolata", "Source Code Pro", "Consolas", "Lucida Console", monospace;
+    font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
     font-size: 13px;
     background: #f0f1f2;
     padding: 0.5em 1em;
