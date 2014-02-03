@@ -12,9 +12,7 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/base-min.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/menus-nr-min.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/tables-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
     <link rel='stylesheet' href='css/main.css'>
 <link rel='stylesheet' href='css/buttons.css'>
 <link rel='stylesheet' href='css/forms.css'>
@@ -28,15 +26,14 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <header class="masthead clearfix">
-      <div class="wrapper">
-        <nav class="main-menu pure-menu pure-menu-open pure-menu-horizontal">
+    <header class="masthead clearfix pure-g-r">
+      <div class="pure-u-1 wrapper">
+        <nav class="main-menu pure-menu pure-menu-horizontal pure-menu-open">
           <a href="/" class="pure-menu-heading">WFP UI Style Guide</a>
           <ul>
             <li class='current'><a class='current' href="styles.html">Styles</a></li>
             <li><a href="components.html">Components</a></li>
             <li class="pure-menu-disabled"><a href="#">Patterns</a></li>
-            <li class="pure-menu-disabled"><a href="#">Compatibility</a></li>
             <li class="pure-menu-disabled"><a href="#">Publishing</a></li>
           </ul>
         </nav>
@@ -45,9 +42,9 @@
 
 <section class="content intro">
 	<div class="wrapper">
-		<h1 class="section-title">Composing Content</h1>
+		<h1 class="section-title">Layout</h1>
 		<p>To create a great content page you have to keep a few things in mind. Those things are: <em>hierarchy</em>, <em>alignment</em> and <em>simplicity</em>. It's easy to do if you adhere to the following guidelines:</p>
-		<ul>
+		<ul class="notes">
 			<li><strong>Content comes first.</strong> Before you start composing the layout of your page, please make sure you have your content ready. There's nothing more annoying than a set of styles which don't work with your content. Keep everything simple and neutral, to let the content stand out on its own.</li>
 			<li><strong>Provide context.</strong> When creating a langing page, you need context that would back up the content and make it more prominent. This will help focus user's attention on that particular section, whether it's a title or an image, or maybe something else you have in mind.</li>
 			<li><strong>Frame the page.</strong> Use our <a href="#">masthead pattern</a> to frame your page. It doesn't have to be exactly the same, as it refers to your content, but it will indicate that your content belongs to the same network, by using our primary branding colours.</li>
@@ -59,7 +56,7 @@
 </section>
 
 
-<section class="content colour">
+<section class="content alternate">
 	<div class="wrapper">
 		<h1 class="page-title">Colour</h1>
 		<p>A set of neutralised branding colours for making content play a primary role whenever it is possible. Other colours should be used in moderation, to compliment the primary set.</p>
@@ -142,7 +139,7 @@
 	</div>
 </section>
 
-<section class="content typography">
+<section class="content">
 	<div class="wrapper">
 		<h1 class="page-title">Typography</h1>
 		<p>Typography plays a critical role in a design. It adds personality to content, becomes its voice. When it's established poorly, elements become unreadable, or badly aligned, thus reducing the impact a given piece of content will have on the reader.</p>
@@ -217,10 +214,10 @@
 		</ul>
 
     <h3><em>Dos</em> and <em>Don'ts</em></h3>
-    <ul>
+    <ul class="notes">
     	<li><em>Don't</em> try to mix two typefaces within a single section, such as a paragraph or a heading. If you need to differentiate a piece of text, use <em>stressed emphasis</em> or <strong>strong importance</strong>.</li>
       <li><em>Don't</em> try to mix different sizes of text within a single section or use editing tools to apply styling or colour to the text manually. Underlines are allowed only on links, but they belong to a different set of styles, separated from the above guidelines.</li>
-      <li><em>Always</em> keep the colour contrast in mind. Your copy should be readable and easy on the eye. Try to avoid plain white or black colours to style text and/or background. Our basic body text colour is <code>#303132</code> and we use <code>#f8f8f8</code> for the background.</li>
+      <li><em>Always</em> keep the colour contrast in mind. Your copy should be readable and easy on the eye. Try to avoid plain white or black colours to style text and/or background. Our basic body text colour is <code>#303132</code> and we use <code>#ffffff</code> for the background.</li>
       <li><em>Always</em> keep your content plain and simple. Don't add unnecessary formatting where it's not required and leave styling of the content to your desiger. This will ensure all of it looks consistent.</li>
      </ul>
 
@@ -229,7 +226,7 @@
 
 </section>
 
-<section class="content images">
+<section class="content alternate">
 	<div class="wrapper">
 		<h1 class="page-title">Working With Images</h1>
 		<p>Imagery is a core aspect of WFP’s online presence. To maximise the impact on our visitors we need both: a powerful photographs and great visual presentation.</p>
@@ -237,7 +234,7 @@
 			<li>You can present your images using virtually any image size, as long as the aspect ratio stays the same defined by the <em>Image Size Breakdown</em> table.</li>
 			<li>Keep in mind what a given image will be intended for; use our <em>Image Size Breakdown</em> table to help you choose the right image size for the right purpose.</li>
 			<li>Try not to include more than two images per article; this will help ensure your page loads as fast as possible.</li>
-			<li>Make sure your image is of an appropriate size for its intended purpose; don’t use large images for thumbnails, or small images to display large splash sections.</li>
+			<li>Make sure your image is of an appropriate size for its intended purpose; don’t use a 600x400px image where a 300x200px image is needed, or small images to display large splash sections.</li>
 		</ul>
 
 		<h4>Image Size Breakdown</h4>

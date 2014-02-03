@@ -1,29 +1,8 @@
 /*
     WFP Buttons Library
-    Based on PureCSS Buttons
+    Extension of PureCSS Buttons
 */
-.btn {
-    /* Structure */
-    display: inline-block;
-    *display: inline; /*IE 6/7*/
-    zoom: 1;
-    line-height: 1;
-    white-space: nowrap;
-    vertical-align: baseline;
-    text-align: center;
-    cursor: pointer;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
-/* Firefox: Get rid of the inner focus border */
-.btn::-moz-focus-inner {
-    padding: 0;
-    border: 0;
-}
 
 .btn {
     font-size: 100%;
@@ -59,9 +38,6 @@
     -o-box-shadow: rgba(0,0,0,0.25) 0 0 8px;
     box-shadow: rgba(0,0,0,0.25) 0 0 8px;
 }
-.btn:focus {
-    outline: 0;
-}
 .btn-active,
 .btn:active {
     box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
@@ -79,16 +55,6 @@
     opacity: 0.40;
     cursor: not-allowed;
     box-shadow: none;
-}
-
-.btn-hidden {
-    display: none;
-}
-
-/* Firefox: Get rid of the inner focus border */
-.btn::-moz-focus-inner{
-    padding: 0;
-    border: 0;
 }
 
 .btn-primary,

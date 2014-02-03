@@ -97,7 +97,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {padding-top: 4em;}
+body {
+    padding-top: 4em;
+    background-color: #fff;
+}
 .wrapper {
     margin: 0 auto;
     max-width: 1000px;
@@ -118,7 +121,6 @@ h1, h2, h3, h4, h5, h6, .title {
     font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
     font-weight: bold;
     line-height: 1.25em;
-    /*font-family: "ff-meta-serif-web-pro", "Georgia", "Times New Roman", serif;*/
 }
 h5 {font-size: 14px;}
 h6 {
@@ -188,7 +190,7 @@ blockquote {
 
 .content .wrapper {
     max-width: 646px;
-    padding: 6em 0;
+    padding: 4em 0;
 }
 .content h2 + p,
 .content h3 + p,
@@ -222,17 +224,8 @@ blockquote {
 
 /* ==========================================================================
    Section colours & typography
-
-   #ffffff - white
-   #ecf0f3 - faded white
-   #f0f1f2 - slate grey
-   #fdab33 — orange yellow
-   #fec877 - sand yellow
-   #3290F9 - primary corporate blue
-   #1e5daf - dark blue
    ========================================================================== */
-.intro, .typography {background-color: #f8f8f8; color: #303132;}
-.colour, .images {background-color: #212D3C; color: #f0f1f2;}
+.alternate {background-color: #212D3C; color: #f0f1f2;}
 
 .wrapper p + ul.inline-grid,
 .pure-table + h2 {margin-top: 3em;}
@@ -249,11 +242,12 @@ blockquote {
 .inline-grid li {
     display: block;
     float: left;
-    background-color: #ffffff;
     text-align: center;
-    border-radius: 3px;
     overflow: hidden;
     margin-bottom: 0;
+    border-radius: 3px;
+    border: 1px solid #eaebec;
+    background-color: #ffffff;
 }
 .inline-grid.short li {
     width: 22%;
@@ -292,6 +286,8 @@ blockquote {
     text-transform: uppercase;
 }
 .inline-grid .desc h4 {font-weight: 600;}
+
+.alternate .inline-grid li {border: none;}
 
 
 .sans {font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;}
