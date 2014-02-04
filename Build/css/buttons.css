@@ -5,12 +5,10 @@
 
 .pure-button {
     padding: 0.6em 1em;
-    line-height: 1;
     background-image: none;
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
-    border-bottom: 2px solid rgba(0,0,0,0.15);
     font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
 }
 
@@ -20,6 +18,9 @@ a.pure-button-primary,
 a.pure-button-selected {
     background-color: #4DA1FF;
     color: #fff;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
 }
 
 .pure-button-secondary,
@@ -30,7 +31,7 @@ a.pure-button-secondary {
 
 .pure-button-active,
 .pure-button:active {
-    box-shadow: rgba(0,0,0,0.3) 0 0 8px inset;
+    box-shadow: rgba(0,0,0,0.2) 0 0 10px inset;
     border-bottom: none;
 }
 
