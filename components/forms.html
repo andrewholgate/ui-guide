@@ -1,0 +1,72 @@
+<!-- $class forms -->
+<!-- $title Components / Form Elements -->
+<!-- @include _header -->
+
+		<div class="content">
+			<h1>Form Elements</h1>
+			<h3 class="section-title">Checkbox</h3>
+			<p>Checkboxes are used to represent a boolean field, where the value is either true or false. Checkbox is always wrapped around a label.</p>
+
+			<div class="preview pure-form">
+				<label class="input-checkbox" for="sample-1">
+					<input type="checkbox" class="checkbox" id="sample-1">Sample Checkbox
+				</label>
+			</div>
+
+			<pre>&lt;label class="input-checkbox" for="sample-1"&gt;
+	  &lt;input type="checkbox" id="sample-1"&gt;Sample Checkbox
+	&lt;/label&gt;</pre>
+
+			<h3 class="section-title">Radio Button</h3>
+			<p>Radios are used to allow the user to choose between several options.</p>
+
+			<div class="preview pure-form">
+				<label class="input-radio" for="option-one">
+					<input id="option-one" class="radio" type="radio" name="options" value="1">Sample Radio
+				</label>
+			</div>
+
+			<pre>&lt;label for="option-one" class="input-radio"&gt;
+	  &lt;input id="option-one" class="radio" type="radio" name="options" value="1"&gt; Option
+	&lt;/label&gt;</pre>
+
+			<h3 class="section-title">Select Box</h3>
+			<p>This box should only be used for picking an option from a collection of no more than 5-8 items.</p>
+
+			<div class="preview pure-form">
+				<label for="select">Select an option:</label>
+				<select id="select" class="select">
+					<option>Option #1</option>
+					<option>Option #2</option>
+					<option>Option #3</option>
+				</select>
+			</div>
+
+	<pre>&lt;label for="state"&gt;Select an option:&lt;/label&gt;
+	&lt;select id="select" class="select"&gt;
+	    &lt;option&gt;Option 1&lt;/option&gt;
+	    &lt;option&gt;Option 2&lt;/option&gt;
+	    &lt;option&gt;Option 3&lt;/option&gt;
+	&lt;/select&gt;
+	</pre>
+
+			<h3 class="section-title">Input Fields</h3>
+			<p>There are several types of input fields: <em>text</em>, <em>num</em>, <em>tel</em>, <em>email</em>, <em>password</em>, etc. Each of them serves a different purpose and should be used according to this purpose, by specifying a proper <em>input type</em>. Make sure you also use the <em>placeholder</em> attribute to add a in-field label to it.</p>
+
+			<div class="preview pure-form">
+				<input id="name" type="text" placeholder="Your Name">
+			</div>
+
+			<pre>&lt;input id="name" type="text" placeholder="Your Name"&gt;</pre>
+
+			<h3 class="section-title">Textarea</h3>
+			<p>Text areas are large inputs where users can type and view larger blocks of text. They can also have buttons attached to the bottom.</p>
+
+			<div class="preview pure-form">
+				<textarea name="default" class="textarea size-large" placeholder="This is a text area."></textarea>
+			</div>
+
+			<pre>&lt;textarea name="default" placeholder="This is a text area." class="textarea size-large"&gt;&lt;/textarea&gt;</pre>
+		</div>
+
+<!-- @include _footer -->

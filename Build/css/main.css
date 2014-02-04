@@ -97,16 +97,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    padding-top: 4em;
-    background-color: #fff;
-}
+body {background-color: #fff;}
 .wrapper {
     margin: 0 auto;
     max-width: 1000px;
+    padding: 0 1.25em;
 }
-.masthead .wrapper,
-.footer .wrapper {padding: 1em 1.25em;}
 
 body,
 .body,
@@ -133,13 +129,6 @@ strong {font-weight: 600;}
 menu, ol, ul {padding: 0 0 0 24px;}
 ul {list-style: square;}
 ul.notes li {margin-bottom: 0.5em;}
-a {
-    color: #0192ff;
-    text-decoration: none;
-    border-bottom: 1px dotted;
-}
-a:visited {color: #184679;}
-a:hover {color: #C65614;}
 pre {
     font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
     font-size: 12px;
@@ -164,34 +153,31 @@ blockquote {
 .masthead {
     background-color: #3290F9;
     color: #ffffff;
-    position: fixed;
-    top: 0;
-    width: 100%;
     box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
+    padding: 1em 1.25em;
 }
-.masthead .main-menu {
-    text-align: left;
-    background-color: #3290F9;
-    color: #ffffff;
+.masthead .logo {font-size: 1em; margin: 0;}
+.masthead .logo a {
+    color: #f1f2f3;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 1.25em;
 }
-.main-menu .pure-menu-heading {
-    font-size: 1.125em;
-    font-weight: bold;
-    color: #ecf0f3;
-}
-.main-menu ul {float: right;}
-.main-menu li a {
-    color: #f0f1f2;
-    padding: 5px 16px;
-}
-.main-menu li a:hover {background-color: #184679;}
-.main-menu li.pure-menu-disabled a:hover {background-color: #3290F9;}
 
+.l-box {padding-right: 1.5em; padding-top: 2em;}
 
-.content .wrapper {
-    max-width: 646px;
-    padding: 4em 0;
+.sub-nav.pure-menu {margin-bottom: 1em; border: none;}
+
+.content {padding-top: 1em;}
+.content a {
+    color: #0192ff;
+    text-decoration: none;
+    border-bottom: 1px dotted;
 }
+.content a:visited {color: #184679;}
+.content a:hover {color: #C65614;}
+.content {max-width: 646px; margin-bottom: 4em;}
 .content h2 + p,
 .content h3 + p,
 .content h4 + p,
@@ -205,7 +191,6 @@ blockquote {
     margin-top: 2em;
 }
 
-.page-title {text-align: center; margin-top: 0;}
 .section-title {
     margin-bottom: 0.5em;
     padding-bottom: 0.5em;
@@ -213,11 +198,7 @@ blockquote {
 }
 .section-center {text-align: center;}
 
-.footer {
-    background-color: #fafafa;
-    border-top: 1px solid #eaeaea;
-    color: #909192;
-}
+.footer {border-top: 1px solid #f0f0f0; color: #909192; padding: 1em 1.25em;}
 .footer .logo {float: left; max-width: 128px;}
 .footer .copyrights {float: right;}
 
@@ -236,7 +217,7 @@ blockquote {
     display: block;
     width: 100%;
     padding-bottom: 1em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 .inline-grid:last-child {margin-bottom: 0;}
 .inline-grid li {
