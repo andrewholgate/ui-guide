@@ -55,7 +55,7 @@
 		<p>However, if your web domain doesn't fall into *.wfp.org wildcard, please contact our Communications Division, to get your domain approved for use with our official kit.</p>
 
 		<h3 class="section-title">Headings</h3>
-		<p>Headers are a useful tool to markup important sections of a given page, such as headlines, chapters, etc. Any header elements may include links or anchors.</p>
+		<p>Headings are a useful tool to markup important sections of a given page, such as headlines, chapters, etc. Any heading elements may include links or anchors.</p>
 
 		<div class="type-sizes headings">
       <h4 class="label">H1</h4>
@@ -114,24 +114,30 @@
 		<p>Primary buttons are only used when there is a clear need for a call-to-action. An example of this is a Send button on an contact form, or a Subscribe button on a newsletter subscription form.</p>
 
 		<div class="preview">
-			<button class="btn btn-primary size-full">Primary Button</button>
+			<p><button class="pure-button pure-button-primary">Button (normal)</button></p>
+			<p><button class="pure-button pure-button-primary pure-button-hover">Button (hover)</button></p>
+			<p><button class="pure-button pure-button-primary pure-button-active">Button (active)</button></p>
+			<p><button class="pure-button pure-button-primary pure-button-disabled">Button (disabled)</button></p>
 		</div>
 
-		<pre>&lt;button class="btn btn-primary size-full"&gt;Primary Button&lt;/button&gt;</pre>
+		<pre>&lt;button class="pure-button pure-button-primary"&gt;Primary Button&lt;/button&gt;</pre>
 
 		<h6>Secondary Button</h6>
 		<p>Secondary buttons are used as a general UI block, for pretty much anything you need.</p>
 
 		<div class="preview">
-			<button class="btn btn-secondary size-full">Secondary Button</button>
+			<p><button class="pure-button pure-button-secondary size-full">Button (normal)</button></p>
+			<p><button class="pure-button pure-button-secondary pure-button-hover">Button (hover)</button></p>
+			<p><button class="pure-button pure-button-secondary pure-button-active">Button (active)</button></p>
+			<p><button class="pure-button pure-button-secondary pure-button-disabled">Button (disabled)</button></p>
 		</div>
 
-		<pre>&lt;button class="btn btn-secondary size-full"&gt;Primary Button&lt;/button&gt;</pre>
+		<pre>&lt;button class="pure-button pure-button-secondary"&gt;Primary Button&lt;/button&gt;</pre>
 
 		<h3 class="section-title">Checkbox</h3>
 		<p>Checkboxes are used to represent a boolean field, where the value is either true or false. Checkbox is always wrapped around a label.</p>
 
-		<div class="preview form">
+		<div class="preview pure-form">
 			<label class="input-checkbox" for="sample-1">
 				<input type="checkbox" class="checkbox" id="sample-1">Sample Checkbox
 			</label>
@@ -142,7 +148,7 @@
 		<h3 class="section-title">Radio Button</h3>
 		<p>Radios are used to allow the user to choose between several options.</p>
 
-		<div class="preview form">
+		<div class="preview pure-form">
 			<label class="input-radio" for="option-one">
 				<input id="option-one" class="radio" type="radio" name="options" value="1">Sample Radio
 			</label>
@@ -155,7 +161,7 @@
 		<h3 class="section-title">Select Box</h3>
 		<p>This box should only be used for picking an option from a collection of no more than 5-8 items.</p>
 
-		<div class="preview form">
+		<div class="preview pure-form">
 			<label for="select">Select an option:</label>
 			<select id="select" class="select">
 				<option>Option #1</option>
@@ -175,7 +181,7 @@
 		<h3 class="section-title">Input Fields</h3>
 		<p>There are several types of input fields: <em>text</em>, <em>num</em>, <em>tel</em>, <em>email</em>, <em>password</em>, etc. Each of them serves a different purpose and should be used according to this purpose, by specifying a proper <em>input type</em>. Make sure you also use the <em>placeholder</em> attribute to add a in-field label to it.</p>
 
-		<div class="preview form">
+		<div class="preview pure-form">
 			<input id="name" type="text" placeholder="Your Name">
 		</div>
 
@@ -184,7 +190,7 @@
 		<h3 class="section-title">Textarea</h3>
 		<p>Text areas are large inputs where users can type and view larger blocks of text. They can also have buttons attached to the bottom.</p>
 
-		<div class="preview form">
+		<div class="preview pure-form">
 			<textarea name="default" class="textarea size-large" placeholder="This is a text area."></textarea>
 		</div>
 
