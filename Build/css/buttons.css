@@ -29,6 +29,24 @@ a.pure-button-secondary {
     color: #616263;
 }
 
+.pure-button-warning,
+a.pure-button-warning {
+    background-color: #E14D4C;
+    color: #ffffff;
+}
+
+.pure-button-attention,
+a.pure-button-attention {
+    background-color: #F9B132;
+    color: #ffffff;
+}
+
+.pure-button-safe,
+a.pure-button-safe {
+    background-color: #BAD619;
+    color: #ffffff;
+}
+
 .pure-button-active,
 .pure-button:active {
     box-shadow: rgba(0,0,0,0.2) 0 0 10px inset;
