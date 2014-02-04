@@ -217,8 +217,7 @@ small {line-height: 1em;}
    ========================================================================== */
 .alternate {background-color: #212D3C; color: #f0f1f2;}
 
-.wrapper p + ul.inline-grid,
-.pure-table + h2 {margin-top: 3em;}
+.wrapper p + ul.inline-grid {margin-top: 3em;}
 
 .inline-grid {
     padding: 0;
