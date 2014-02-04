@@ -16,7 +16,7 @@
 .pure-button-selected,
 a.pure-button-primary,
 a.pure-button-selected {
-    background-color: #4DA1FF;
+    background-color: #3498DB;
     color: #fff;
     -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
     -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
@@ -25,7 +25,7 @@ a.pure-button-selected {
 
 .pure-button-secondary,
 a.pure-button-secondary {
-    background-color: #eaeaea;
+    background-color: #c7c7c7;
     color: #616263;
 }
 
