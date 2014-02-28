@@ -115,7 +115,7 @@ body,
 }
 h1, h2, h3, h4, h5, h6, .title {
     font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.25em;
 }
 h5 {font-size: 14px;}
@@ -285,6 +285,7 @@ small {line-height: 1em;}
 .type-medium {font-weight: 400;}
 .type-medium-i {font-weight: 400; font-style: italic;}
 .type-semi {font-weight: 600;}
+.type-semi-i {font-weight: 600; font-style: italic;}
 .type-bold {font-weight: 700;}
 .type-bold-i {font-weight: 700; font-style: italic;}
 
