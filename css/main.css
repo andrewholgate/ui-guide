@@ -154,7 +154,8 @@ blockquote {
 small {line-height: 1em;}
 
 .masthead {
-    background-color: #3498DB;
+    background-color: #4AA8FD;
+    border-bottom: 3px solid #4295E0;
     color: #ffffff;
     box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
     padding: 1em 1.25em;
@@ -255,7 +256,7 @@ small {line-height: 1em;}
 .inline-grid.long .inline-item {height: 112px;}
 
 .inline-grid .inline-item.c-1 {background-color: #2C3E50;}
-.inline-grid .inline-item.c-2 {background-color: #3498DB;}
+.inline-grid .inline-item.c-2 {background-color: #4AA8FD;}
 .inline-grid .inline-item.c-3 {background-color: #ECF0F1;}
 .inline-grid .inline-item.c-4 {background-color: #fafafa;}
 .inline-grid .inline-item.c-5 {background-color: #46320E;}
