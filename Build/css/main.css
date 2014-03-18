@@ -281,7 +281,7 @@ small {line-height: 1em;}
     line-height: 1;
     text-transform: uppercase;
 }
-.inline-grid.icons .desc {overflow: hidden; height: 26px;}
+.inline-grid.icons .desc {padding: 0.5em 0; overflow: hidden; height: 28px;}
 .inline-grid.icons li:hover .desc {
     position: absolute;
     overflow: visible;
@@ -290,7 +290,7 @@ small {line-height: 1em;}
     width: 100%;
     background-color: #fff;
 }
-.inline-grid.icons .desc p {text-transform: capitalize;}
+.inline-grid.icons .desc p {line-height: 1.35em; text-transform: capitalize;}
 .inline-grid .desc h4 {font-weight: 600;}
 
 .alternate .inline-grid li {border: none;}
