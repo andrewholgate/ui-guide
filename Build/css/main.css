@@ -257,11 +257,11 @@ small {line-height: 1em;}
 .inline-grid.long .inline-item {height: 112px;}
 
 .inline-grid.icons li {
-    height: 162px;
+    height: 160px;
     position: relative;
 }
-.inline-grid.icons li:hover {overflow: visible;}
-.inline-grid.icons .inline-item img {max-width: 90%; vertical-align: top;}
+.inline-grid.icons .inline-item {height: 96px;}
+.inline-grid.icons .inline-item img {max-width: 80%; vertical-align: top;}
 
 .inline-grid .inline-item.c-1 {background-color: #2C3E50;}
 .inline-grid .inline-item.c-2 {background-color: #4AA8FD;}
@@ -282,15 +282,7 @@ small {line-height: 1em;}
     line-height: 1;
     text-transform: uppercase;
 }
-.inline-grid.icons .desc {padding: 0.5em 0; overflow: hidden; height: 28px;}
-.inline-grid.icons li:hover .desc {
-    position: absolute;
-    overflow: visible;
-    z-index: 100;
-    height: auto;
-    width: 100%;
-    background-color: #fff;
-}
+.inline-grid.icons .desc {padding: 0.5em 0;}
 .inline-grid.icons .desc p {line-height: 1.35em; text-transform: capitalize;}
 .inline-grid .desc h4 {font-weight: 600;}
 
