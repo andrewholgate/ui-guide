@@ -260,6 +260,7 @@ small {line-height: 1em;}
     height: 162px;
     position: relative;
 }
+.inline-grid.icons li:hover {overflow: visible;}
 .inline-grid.icons .inline-item img {max-width: 90%; vertical-align: top;}
 
 .inline-grid .inline-item.c-1 {background-color: #2C3E50;}

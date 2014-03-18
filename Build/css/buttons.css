@@ -22,14 +22,16 @@ a.pure-button-selected {
     -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
     box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
 }
-a.pure-button-primary:hover {
+a.pure-button-primary:hover,
+a.pure-button-primary:visited {
     border-bottom: none;
     color: #fff;
 }
 
 .pure-button-secondary,
 a.pure-button-secondary,
-a.pure-button-secondary:hover {
+a.pure-button-secondary:hover,
+a.pure-button-secondary:visited {
     border-bottom: none;
     background-color: #c7c7c7;
     color: #616263;
@@ -37,7 +39,8 @@ a.pure-button-secondary:hover {
 
 .pure-button-warning,
 a.pure-button-warning,
-a.pure-button-warning:hover {
+a.pure-button-warning:hover,
+a.pure-button-warning:visited {
     border-bottom: none;
     background-color: #E14D4C;
     color: #ffffff;
@@ -45,7 +48,8 @@ a.pure-button-warning:hover {
 
 .pure-button-attention,
 a.pure-button-attention,
-a.pure-button-attention:hover {
+a.pure-button-attention:hover,
+a.pure-button-attention:visited {
     border-bottom: none;
     background-color: #F9B132;
     color: #ffffff;
@@ -53,7 +57,8 @@ a.pure-button-attention:hover {
 
 .pure-button-safe,
 a.pure-button-safe,
-a.pure-button-safe:hover {
+a.pure-button-safe:hover,
+a.pure-button-safe:visited {
     border-bottom: none;
     background-color: #BAD619;
     color: #ffffff;
