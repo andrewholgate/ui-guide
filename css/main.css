@@ -162,6 +162,7 @@ small {line-height: 1em;}
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1000;
 }
 .masthead .logo {font-size: 1em; margin: 0;}
 .masthead .logo a {
@@ -255,6 +256,12 @@ small {line-height: 1em;}
 .inline-grid.colours .inline-item {border-bottom: 16px solid rgba(0,0,0,0.2);}
 .inline-grid.long .inline-item {height: 112px;}
 
+.inline-grid.icons li {
+    height: 162px;
+    position: relative;
+}
+.inline-grid.icons .inline-item img {max-width: 90%; vertical-align: top;}
+
 .inline-grid .inline-item.c-1 {background-color: #2C3E50;}
 .inline-grid .inline-item.c-2 {background-color: #4AA8FD;}
 .inline-grid .inline-item.c-3 {background-color: #ECF0F1;}
@@ -274,6 +281,16 @@ small {line-height: 1em;}
     line-height: 1;
     text-transform: uppercase;
 }
+.inline-grid.icons .desc {overflow: hidden; height: 26px;}
+.inline-grid.icons li:hover .desc {
+    position: absolute;
+    overflow: visible;
+    z-index: 100;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+.inline-grid.icons .desc p {text-transform: capitalize;}
 .inline-grid .desc h4 {font-weight: 600;}
 
 .alternate .inline-grid li {border: none;}
