@@ -134,7 +134,7 @@ pre {
     font-size: 12px;
     background: #f0f1f2;
     padding: 0.5em 1em;
-    border-left: 5px solid #F9B132;
+    border-left: 5px solid #96CCFD;
 }
 code {
     font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
@@ -263,16 +263,20 @@ small {line-height: 1em;}
 .inline-grid.icons .inline-item {height: 96px;}
 .inline-grid.icons .inline-item img {max-width: 80%; vertical-align: top;}
 
-.inline-grid .inline-item.c-1 {background-color: #2C3E50;}
+.inline-grid .inline-item.c-1 {background-color: #313233;}
 .inline-grid .inline-item.c-2 {background-color: #4AA8FD;}
 .inline-grid .inline-item.c-3 {background-color: #ECF0F1;}
 .inline-grid .inline-item.c-4 {background-color: #fafafa;}
-.inline-grid .inline-item.c-5 {background-color: #46320E;}
-.inline-grid .inline-item.c-6 {background-color: #C65614;}
-.inline-grid .inline-item.c-7 {background-color: #F9B132;}
-.inline-grid .inline-item.c-8 {background-color: #E14D4C;}
-.inline-grid .inline-item.c-9 {background-color: #BAD619;}
-.inline-grid .inline-item.c-10 {background-color: #52BFFF;}
+.inline-grid .inline-item.c-5 {background-color: #2C3E50;}
+.inline-grid .inline-item.c-6 {background-color: #7EC1FF;}
+.inline-grid .inline-item.c-7 {background-color: #96CCFD;}
+.inline-grid .inline-item.c-8 {background-color: #7A7D7F;}
+.inline-grid .inline-item.c-9 {background-color: #B8BBBF;}
+.inline-grid .inline-item.c-10 {background-color: #E8E8EF;}
+.inline-grid .inline-item.c-11 {background-color: #FDA515;}
+.inline-grid .inline-item.c-12 {background-color: #FFBA3A;}
+.inline-grid .inline-item.c-13 {background-color: #FD5248;}
+.inline-grid .inline-item.c-14 {background-color: #BECA27;}
 .inline-grid .desc {padding: 0.75em 0;}
 .inline-grid .desc h4,
 .inline-grid .desc p {

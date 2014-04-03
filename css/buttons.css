@@ -42,7 +42,7 @@ a.pure-button-warning,
 a.pure-button-warning:hover,
 a.pure-button-warning:visited {
     border-bottom: none;
-    background-color: #E14D4C;
+    background-color: #FD5248;
     color: #ffffff;
 }
 
@@ -51,7 +51,7 @@ a.pure-button-attention,
 a.pure-button-attention:hover,
 a.pure-button-attention:visited {
     border-bottom: none;
-    background-color: #F9B132;
+    background-color: #FFBA3A;
     color: #ffffff;
 }
 
@@ -60,7 +60,7 @@ a.pure-button-safe,
 a.pure-button-safe:hover,
 a.pure-button-safe:visited {
     border-bottom: none;
-    background-color: #BAD619;
+    background-color: #BECA27;
     color: #ffffff;
 }
 
