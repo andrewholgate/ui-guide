@@ -7,7 +7,7 @@
   background: #fff; /* 1 */
   color: #313233; /* 2 */
   font-size: 100%; /* 3 */
-  font-family: "myriad-pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "myriad-pro", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   -webkit-text-size-adjust: 100%; /* 4 */
   -ms-text-size-adjust: 100%; /* 4 */
@@ -78,7 +78,7 @@
     margin: 2.33em 0;
 }
 .wfpui h1, .wfpui h2, .wfpui h3, .wfpui h4, .wfpui h5, .wfpui h6 {
-    font-family: "myriad-pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "myriad-pro", Helvetica, Arial, sans-serif;
     font-weight: 600;
     line-height: 1.25em;
 }
@@ -195,7 +195,7 @@
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
-    font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
+    font-family: "myriad-pro", Helvetica, Arial, sans-serif;
     background-color: #4AA8FD;
     color: #fff;
     -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
@@ -233,7 +233,7 @@
     -ms-transition: 0.3s linear border;
     -o-transition: 0.3s linear border;
     transition: 0.3s linear border;
-    font-family: "myriad-pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "myriad-pro", Helvetica, Arial, sans-serif;
     margin-bottom: 0.5em;
 }
 
