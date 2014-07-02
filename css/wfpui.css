@@ -212,7 +212,7 @@
     border-radius: 2px;
     position: absolute;
     top: 3px;
-    background: #99a1a7;
+    background: #4AA8FD;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
     text-shadow: 0px;
     left: 3px;
@@ -243,7 +243,7 @@
     border-radius: 50px;
     position: absolute;
     top: 3px;
-    background: #99a1a7;
+    background: #4AA8FD;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
     text-shadow: 0px;
     left: 3px;
@@ -286,7 +286,7 @@
 
 .wfpui label {
     display: block;
-    margin: 0.5em 0 0.25em;
+    margin: 0.25em 0;
     font-size: 100%;
     vertical-align: baseline;
 }
