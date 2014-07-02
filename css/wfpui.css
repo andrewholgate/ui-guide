@@ -185,6 +185,27 @@
     *vertical-align: middle; /* 3 */
     line-height: normal;
 }
+
+.wfpui button {
+    padding: 0.6em 1em;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-image: none;
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+    font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
+    background-color: #4AA8FD;
+    color: #fff;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
+}
+.wfpui button:focus {
+  box-shadow: none;
+}
+
 .wfpui input[type="text"],
 .wfpui input[type="password"],
 .wfpui input[type="email"],
