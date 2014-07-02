@@ -105,18 +105,58 @@
     border-left: 5px solid #dadada;
 }
 
+.wfpui img {
+    vertical-align: middle;
+}
+
 .wfpui a:link {color: #3498DB; text-decoration: none;}
 .wfpui a:visited {color: #52BFFF;}
 .wfpui a:hover,
 .wfpui a:active {color: #0192ff; border-bottom: 1px solid #52BFFF;}
+
+.wfpui p {
+  margin: 0.75em 0;
+}
 
 .wfpui h2 + p,
 .wfpui h3 + p,
 .wfpui h4 + p,
 .wfpui h5 + p,
 .wfpui h6 + p {
-    margin-top: 0.5em;
+    margin-top: 0;
 }
+.wfpui p.summary {
+  font-family: "calluna", Georgia, serif;
+  font-style: italic;
+  font-size: 1.125em;
+  line-height: 1.562em;
+}
+
+.wfpui .callout {
+  margin: 0.25em 0;
+  max-width: 368px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wfpui .callout img {
+  width: 100%;
+}
+.wfpui .callout h4 {
+  background-color: #eaeaea;
+  margin: 0;
+  padding: 0.5em 0.75em 0;
+}
+.wfpui .callout p {
+  margin-top: 0;
+  padding: 0.5em 1em;
+  background-color: #eaeaea;
+  font-size: 0.813em;
+}
+
+.wfpui .callout.f-left {float: left; margin-right: 1.5em;}
+.wfpui .callout.f-right {float: right; margin-left: 1.5em;}
 
 .wfpui table {
     border-collapse: collapse;
