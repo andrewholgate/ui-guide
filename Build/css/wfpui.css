@@ -1,0 +1,292 @@
+/**
+  WFP UI Enhancement Kit
+  Version: 0.1;
+  Author: Matthew Morek;
+*/
+.wfpui {
+  background: #fff; /* 1 */
+  color: #313233; /* 2 */
+  font-size: 100%; /* 3 */
+  font-family: "myriad-pro", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.4;
+  -webkit-text-size-adjust: 100%; /* 4 */
+  -ms-text-size-adjust: 100%; /* 4 */
+}
+.wfpui * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wfpui html,
+.wfpui button,
+.wfpui input,
+.wfpui select,
+.wfpui textarea {
+    color: #222;
+}
+
+.wfpui body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.wfpui hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.wfpui img {
+    vertical-align: middle;
+}
+
+.wfpui fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Allow textarea to be resized only vertically */
+.wfpui textarea {resize: vertical;}
+
+/* Reset headings */
+.wfpui h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.wfpui h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+.wfpui h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+.wfpui h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+.wfpui h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+.wfpui h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+.wfpui h1, .wfpui h2, .wfpui h3, .wfpui h4, .wfpui h5, .wfpui h6 {
+    font-family: "myriad-pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+}
+.wfpui h5 {font-size: 14px;}
+.wfpui h6 {
+    color: #777777;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.wfpui strong {font-weight: 600;}
+.wfpui small {line-height: 1;}
+
+.wfpui menu,
+.wfpui ol,
+.wfpui ul {
+  padding: 0 0 0 24px;
+}
+.wfpui blockquote {
+    font-style: italic;
+    padding-left: 1.5em;
+    margin: 1em 2em;
+    color: #818283;
+    border-left: 5px solid #dadada;
+}
+
+.wfpui a:link {color: #3498DB; text-decoration: none;}
+.wfpui a:visited {color: #52BFFF;}
+.wfpui a:hover,
+.wfpui a:active {color: #0192ff; border-bottom: 1px solid #52BFFF;}
+
+.wfpui h2 + p,
+.wfpui h3 + p,
+.wfpui h4 + p,
+.wfpui h5 + p,
+.wfpui h6 + p {
+    margin-top: 0.5em;
+}
+
+.wfpui table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/**
+  Form Elements
+*/
+.wfpui button,
+.wfpui input,
+.wfpui select,
+.wfpui textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+    line-height: normal;
+}
+.wfpui input[type="text"],
+.wfpui input[type="password"],
+.wfpui input[type="email"],
+.wfpui input[type="url"],
+.wfpui input[type="date"],
+.wfpui input[type="month"],
+.wfpui input[type="time"],
+.wfpui input[type="datetime"],
+.wfpui input[type="datetime-local"],
+.wfpui input[type="week"],
+.wfpui input[type="number"],
+.wfpui input[type="search"],
+.wfpui input[type="tel"],
+.wfpui input[type="color"],
+.wfpui select,
+.wfpui textarea {
+    display: block;
+    padding: 0.35em 0.5em;
+    border: 1px solid #ccc;
+    font-size: 0.899em;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    -webkit-transition: 0.3s linear border;
+    -moz-transition: 0.3s linear border;
+    -ms-transition: 0.3s linear border;
+    -o-transition: 0.3s linear border;
+    transition: 0.3s linear border;
+    font-family: "myriad-pro", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.wfpui input[type="text"]:focus,
+.wfpui input[type="password"]:focus,
+.wfpui input[type="email"]:focus,
+.wfpui input[type="url"]:focus,
+.wfpui input[type="date"]:focus,
+.wfpui input[type="month"]:focus,
+.wfpui input[type="time"]:focus,
+.wfpui input[type="datetime"]:focus,
+.wfpui input[type="datetime-local"]:focus,
+.wfpui input[type="week"]:focus,
+.wfpui input[type="number"]:focus,
+.wfpui input[type="search"]:focus,
+.wfpui input[type="tel"]:focus,
+.wfpui input[type="color"]:focus,
+.wfpui select:focus,
+.wfpui textarea:focus {
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+    border-color: #7DB8FA;
+}
+
+.wfpui input[type="checkbox"],
+.wfpui input[type="radio"] {
+    margin-right: 0.35em;
+}
+
+.wfpui input[type="checkbox"] {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 8px;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+}
+.wfpui input[type="checkbox"]:checked:after {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    position: absolute;
+    top: 3px;
+    background: #99a1a7;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px;
+    left: 3px;
+    font-size: 32px;
+}
+.wfpui input[type="checkbox"]:checked {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.wfpui input[type="radio"] {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 8px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+}
+.wfpui input[type="radio"]:checked:after {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 3px;
+    background: #99a1a7;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px;
+    left: 3px;
+    font-size: 32px;
+}
+.wfpui input[type="radio"]:checked {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.wfpui input[type="file"]:focus,
+.wfpui input[type="radio"]:focus,
+.wfpui input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 1px auto #129FEA;
+}
+
+.wfpui input[type="text"][disabled],
+.wfpui input[type="password"][disabled],
+.wfpui input[type="email"][disabled],
+.wfpui input[type="url"][disabled],
+.wfpui input[type="date"][disabled],
+.wfpui input[type="month"][disabled],
+.wfpui input[type="time"][disabled],
+.wfpui input[type="datetime"][disabled],
+.wfpui input[type="datetime-local"][disabled],
+.wfpui input[type="week"][disabled],
+.wfpui input[type="number"][disabled],
+.wfpui input[type="search"][disabled],
+.wfpui input[type="tel"][disabled],
+.wfpui input[type="color"][disabled],
+.wfpui select[disabled],
+.wfpui textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+.wfpui label {
+    display: block;
+    margin: 0.5em 0 0.25em;
+    font-size: 100%;
+    vertical-align: baseline;
+}
