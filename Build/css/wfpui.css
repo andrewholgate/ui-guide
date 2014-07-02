@@ -143,10 +143,18 @@
 .wfpui .callout img {
   width: 100%;
 }
-.wfpui .callout h4 {
-  background-color: #eaeaea;
-  margin: 0;
-  padding: 0.5em 0.75em 0;
+.wfpui .callout.tiny {
+  background-color: #fff;
+  border-left: 3px solid #4AA8FD;
+  padding-left: 18px;
+}
+.wfpui .callout.tiny h4 {
+  margin: 0.25em 0;
+}
+.wfpui .callout.tiny p {
+  margin: 0.25em 0;
+  padding: 0;
+  background-color: #fff;
 }
 .wfpui .callout p {
   margin-top: 0;
