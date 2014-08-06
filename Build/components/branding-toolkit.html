@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Styles / Images</title>
+    <title>Components / Buttons</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -39,26 +39,26 @@
       </div>
     </header>
 
-    <section class="pure-g wrapper images">
+    <section class="pure-g wrapper buttons">
       <aside class="pure-u-1-4 l-box">
         	<nav class="sub-nav">
 		<div class="pure-menu pure-menu-open">
-			<a href="design.html" class="pure-menu-heading">Styles</a>
+			<a href="../styles/design.html" class="pure-menu-heading">Styles</a>
 			<ul>
-				<li><a href="design.html">Design Principles</a></li>
-				<li><a href="colours.html">Colours</a></li>
-				<li><a href="typography.html">Typography</a></li>
-				<li class='current'><a class='current' href="images.html">Images</a></li>
-				<li><a href="icons.html">Icons</a></li>
+				<li><a href="../styles/design.html">Design Principles</a></li>
+				<li><a href="../styles/colours.html">Colours</a></li>
+				<li><a href="../styles/typography.html">Typography</a></li>
+				<li><a href="../styles/images.html">Images</a></li>
+				<li><a href="../styles/icons.html">Icons</a></li>
 			</ul>
 		</div>
 		<div class="pure-menu pure-menu-open">
-			<a href="../components/fonts.html" class="pure-menu-heading">Components</a>
+			<a href="fonts.html" class="pure-menu-heading">Components</a>
 			<ul>
-				<li><a href="../components/branding-toolkit.html">Branding Toolkit</a></li>
-				<li><a href="../components/fonts.html">Fonts &amp; Content</a></li>
-				<li><a href="../components/buttons.html">Buttons</a></li>
-				<li><a href="../components/forms.html">Form Elements</a></li>
+				<li class='current'><a class='current' href="branding-toolkit.html">Branding Toolkit</a></li>
+				<li><a href="fonts.html">Fonts &amp; Content</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="forms.html">Form Elements</a></li>
 			</ul>
 		</div>
 		<div class="pure-menu pure-menu-open">
@@ -71,54 +71,25 @@
       </aside>
       <div class="pure-u-3-4">
 
-	<div class="content">
-		<h1>Working With Images</h1>
-		<p>Imagery is a core aspect of WFP’s online presence. To maximise the impact on our visitors we need both: a powerful photographs and great visual presentation.</p>
-		<ul class="notes">
-			<li>You can present your images using virtually any image size, as long as the aspect ratio stays the same defined by the <em>Image Size Breakdown</em> table.</li>
-			<li>Keep in mind what a given image will be intended for; use our <em>Image Size Breakdown</em> table to help you choose the right image size for the right purpose.</li>
-			<li>Try not to include more than two images per article; this will help ensure your page loads as fast as possible.</li>
-			<li>Make sure your image is of an appropriate size for its intended purpose; don’t use a 600x400px image where a 300x200px image is needed, or small images to display large splash sections.</li>
-		</ul>
+		<div class="content">
+			<h1>Branding Toolkit</h1>
+			<p>Making sure your page branding adheres to WFP Online Branding Guidelines, we have prepared a small branding toolkit, which you should use on your pages.</p>
 
-		<h6>Image Size Breakdown</h6>
-		<table class="pure-table">
-			<thead>
-				<tr>
-					<th>Purpose</th>
-					<th>Image Resolution (Ratio)</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Article Splash</td>
-					<td>1200 x 400px (3:1)</td>
-				</tr>
-				<tr>
-					<td>Article Main Image</td>
-					<td>680 x 425px (16:10)</td>
-				</tr>
-				<tr>
-					<td>Article Side Image</td>
-					<td>300 x 200px (4:3)</td>
-				</tr>
-				<tr>
-					<td>News Item (Small)</td>
-					<td>120 x 90px (4:3)</td>
-				</tr>
-				<tr>
-					<td>News Item (Medium)</td>
-					<td>200 x 150px (4:3)</td>
-				</tr>
-			</tbody>
-		</table>
+			<h2>Favicons</h2>
+			<p>Favicons are small icons that are being often displayed in the browser address bar, stored with bookmarked pages, etc. <em>You should only use the officialy approved favicons.</em></p>
+			<p>Add the following lines to the <code>&lt;head&gt;</code> section of your page:</p>
 
-		<h2 class="section-title">Captioning Your Images</h2>
-		<p>This section needs more info.</p>
+			<pre>&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;http://cdn.wfp.org/apple-touch-icon-152x152-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;http://cdn.wfp.org/apple-touch-icon-144x144-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;http://cdn.wfp.org/apple-touch-icon-120x120-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;http://cdn.wfp.org/apple-touch-icon-114x114-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;http://cdn.wfp.org/apple-touch-icon-76x76-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;http://cdn.wfp.org/apple-touch-icon-72x72-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;http://cdn.wfp.org/apple-touch-icon-precomposed.png&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;http://cdn.wfp.org/favicon.ico&quot; /&gt;</pre>
 
-		<h2 class="section-title">Positioning Your Images</h2>
-		<p>This section needs more info.</p>
-	</div>
+			<p>If your application/website is not able to connect to the Internet, you can use our <a href="../files/favicon.zip">favicon offline kit</a> to host favicons locally. Download the ZIP file, unpack it and place its contents in the root of your site.</p>
+		</div>
 
 			</div>
 		</section>

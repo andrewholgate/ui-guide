@@ -135,6 +135,11 @@ pre {
     background: #f0f1f2;
     padding: 0.5em 1em;
     border-left: 5px solid #96CCFD;
+    overflow: scroll;
+    width: 100%;
+    word-wrap: normal;
+    white-space: pre;
+    line-height: 1.4;
 }
 code {
     font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
