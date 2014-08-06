@@ -110,7 +110,7 @@ body,
 .pure-g-r [class *= "pure-u"] {
     font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
     font-size: 100%;
-    line-height: 1.562em;
+    line-height: 1.4em;
     color: #303132;
 }
 h1, h2, h3, h4, h5, h6, .title {
@@ -132,7 +132,7 @@ ul.notes li {margin-bottom: 0.5em;}
 pre {
     font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
     font-size: 12px;
-    background: #f0f1f2;
+    background-color: #fafafa;
     padding: 0.5em 1em;
     border-left: 5px solid #96CCFD;
     overflow: scroll;
@@ -144,10 +144,16 @@ pre {
 code {
     font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
     font-size: 13px;
-    background: #F9B132;
-    color: #fff;
+    background-color: #eaeaea;
+    color: #313233;
     border-radius: 2px;
     padding: 0.125em 0.5em;
+}
+pre code {
+    background-color: inherit;
+    color: inherit;
+    padding: initial;
+    font-size: 12px;
 }
 blockquote {
     font-style: italic;
@@ -321,6 +327,20 @@ small {line-height: 1em;}
     margin-top: 0;
 }
 
+.notice {
+    background-color: #f8f8f8;
+    padding: 0.5em 1em;
+    border-left: 5px solid #FFBA3A;
+    font-size: 0.813em;
+    line-height: 1.4;
+}
+.notice .title {
+    margin: 0.25em 0;
+}
+.notice p:last-child {
+    margin-bottom: 0;
+}
+
 
 .preview {
     background-color: #fafafa;
@@ -333,10 +353,72 @@ small {line-height: 1em;}
     padding: 1em 2em;
     text-align: left;
 }
+.preview.plain {
+    background-color: #fff;
+}
 
 
 
+/* ==========================================================================
+   Breadcrumbs
+   ========================================================================== */
+.breadcrumbs {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    display: table;
+    height: 28px;
+}
+.breadcrumbs li {
+    display: table-cell;
+    border: 1px solid #e5e7e9;
+    border-left: none;
+    position: relative;
+    z-index: 5;
+    max-height: 24px;
+    font-size: 0.813em;
+}
+.breadcrumbs li:after {
+    display: block;
+    position: absolute;
+    content: " ";
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #e5e7e9;
+    border-top: 1px solid #e5e7e9;
+    right: -5px;
+    top: 9px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 10;
 
+}
+.breadcrumbs li:first-child {
+    border-radius: 2px 0 0 2px;
+    border-left: 1px solid #e5e7e9;
+}
+.breadcrumbs li:last-child {
+    border-radius: 0 2px 2px 0;
+    padding: 0.15em 0.5em 0.15em 0.75em;
+    cursor: default;
+}
+.breadcrumbs li:last-child:after {
+    display: none;
+}
+.breadcrumbs li a {
+    padding: 0.35em 0.5em 0.35em 0.75em;
+    width: auto;
+    border: none;
+    color: #898989;
+}
+.breadcrumbs li a:hover {color: #4AA8FD;}
+.breadcrumbs li a.home img {
+    vertical-align: baseline;
+}
 
 
 

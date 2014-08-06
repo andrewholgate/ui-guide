@@ -20,12 +20,13 @@
     <link rel="shortcut icon" href="http://cdn.wfp.org/favicon.ico">
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-    <link rel='stylesheet' href='../css/main.css'>
-<link rel='stylesheet' href='../css/buttons.css'>
+    <link rel='stylesheet' href='../css/buttons.css'>
 <link rel='stylesheet' href='../css/forms.css'>
+<link rel='stylesheet' href='../css/prism.css'>
+<link rel='stylesheet' href='../css/main.css'>
 
-    <script type="text/javascript" src="//use.typekit.net/eav6fth.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="//use.typekit.net/eav6fth.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <script src='../js/vendor/modernizr-2.6.2.min.js'></script>
   </head>
   <body>
@@ -63,6 +64,9 @@
 		</div>
 		<div class="pure-menu pure-menu-open">
 			<a href="#" class="pure-menu-heading">Patterns</a>
+			<ul>
+				<li><a href="../patterns/breadcrumbs.html">Breadcrumbs</a></li>
+			</ul>
 		</div>
 		<div class="pure-menu pure-menu-open">
 			<a href="#" class="pure-menu-heading">Publishing</a>
@@ -84,9 +88,10 @@
 				<p><button class="pure-button pure-button-primary pure-button-disabled">Button (disabled)</button></p>
 			</div>
 
-			<pre>&lt;button class="pure-button pure-button-primary"&gt;Button&lt;/button&gt;
+			<pre class="language-markup">
+<code class="language-markup">&lt;button class="pure-button pure-button-primary"&gt;Button&lt;/button&gt;
 &lt;button class="pure-button pure-button-primary pure-button-active"&gt;Button&lt;/button&gt;
-&lt;button class="pure-button pure-button-primary pure-button-disabled"&gt;Button&lt;/button&gt;</pre>
+&lt;button class="pure-button pure-button-primary pure-button-disabled"&gt;Button&lt;/button&gt;</code></pre>
 
 			<h6>Secondary Button</h6>
 			<p>Secondary buttons are used as a general UI block, for pretty much anything you need.</p>
@@ -97,9 +102,10 @@
 				<p><button class="pure-button pure-button-secondary pure-button-disabled">Button (disabled)</button></p>
 			</div>
 
-			<pre>&lt;button class="pure-button pure-button-secondary"&gt;Button&lt;/button&gt;
+			<pre class="language-markup">
+<code class="language-markup">&lt;button class="pure-button pure-button-secondary"&gt;Button&lt;/button&gt;
 &lt;button class="pure-button pure-button-secondary pure-button-active"&gt;Button&lt;/button&gt;
-&lt;button class="pure-button pure-button-secondary pure-button-disabled"&gt;Button&lt;/button&gt;</pre>
+&lt;button class="pure-button pure-button-secondary pure-button-disabled"&gt;Button&lt;/button&gt;</code></pre>
 
 			<h3 class="section-title">Other Buttons</h3>
 			<p>Apart from <em>primary</em> and <em>secondary</em> buttons, you can also use action-specific buttons to help people identify certain actions more easily. These buttons should be used with moderation. Examples of usage can be found in <a href="#">Patterns</a> section of this guide.</p>
@@ -110,9 +116,10 @@
 				<p><button class="pure-button pure-button-safe">Button (safe)</button></p>
 			</div>
 
-			<pre>&lt;button class="pure-button pure-button-warning"&gt;Button&lt;/button&gt;
+			<pre class="language-markup">
+<code class="language-markup">&lt;button class="pure-button pure-button-warning"&gt;Button&lt;/button&gt;
 &lt;button class="pure-button pure-button-attention"&gt;Button&lt;/button&gt;
-&lt;button class="pure-button pure-button-safe"&gt;Button&lt;/button&gt;</pre>
+&lt;button class="pure-button pure-button-safe"&gt;Button&lt;/button&gt;</code></pre>
 		</div>
 
 			</div>
@@ -130,6 +137,7 @@
 
     <script src='../js/vendor/jquery-1.9.1.min.js'></script>
 <script src='../js/plugins.js'></script>
+<script src='../js/vendor/prism.min.js'></script>
 <script src='../js/main.js'></script>
   </body>
 </html>
