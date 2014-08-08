@@ -351,6 +351,7 @@ small {line-height: 1em;}
     text-align: center;
     border-top: 2px solid #f0f1f2;
     border-bottom: 2px solid #f0f1f2;
+    margin: 1em 0;
 }
 .preview.paragraph {
     padding: 1em 2em;

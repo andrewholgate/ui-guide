@@ -30,16 +30,13 @@ a.pure-button-selected {
     background-color: #4AA8FD;
     color: #fff;
 }
-.pure-button-primary:hover,
-a.pure-button-primary:hover,
-a.pure-button-primary:visited {}
 
 .pure-button-secondary,
 a.pure-button-secondary,
 a.pure-button-secondary:visited {
     background-color: #fff;
     box-shadow: none;
-    border: 2px solid #eaeaea;
+    border: 2px solid #dadada;
     color: #616263;
 }
 
@@ -99,4 +96,9 @@ a.pure-button-safe:visited {
     cursor: not-allowed;
     box-shadow: none;
     border: none;
+}
+
+.pure-button-secondary[disabled],
+.pure-button-secondary.pure-button-disabled {
+    border: 2px solid #dedede;
 }
