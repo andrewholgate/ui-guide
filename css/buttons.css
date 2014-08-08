@@ -9,7 +9,18 @@
     -webkit-transition: all 0.15s ease-in;
     -moz-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
-    font-family: "myriad-pro", "Myriad Pro", "Gill Sans", sans-serif;
+    font-family: "myriad-pro", "Myriad Pro", sans-serif;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 1px 3px;
+    -moz-box-shadow:    rgba(0,0,0,0.1) 0 1px 3px;
+    box-shadow:         rgba(0,0,0,0.1) 0 1px 3px;
+}
+.pure-button:hover,
+.pure-button:focus {
+    background-image: none;
+    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 6px;
+    -moz-box-shadow:    rgba(0,0,0,0.15) 0 1px 6px;
+    box-shadow:         rgba(0,0,0,0.15) 0 1px 6px;
 }
 
 .pure-button-primary,
@@ -18,30 +29,30 @@ a.pure-button-primary,
 a.pure-button-selected {
     background-color: #4AA8FD;
     color: #fff;
-    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
-    -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
-    box-shadow: rgba(0,0,0,0.15) 0 1px 3px;
 }
+.pure-button-primary:hover,
 a.pure-button-primary:hover,
-a.pure-button-primary:visited {
-    border-bottom: none;
-    color: #fff;
-}
+a.pure-button-primary:visited {}
 
 .pure-button-secondary,
 a.pure-button-secondary,
-a.pure-button-secondary:hover,
 a.pure-button-secondary:visited {
-    border-bottom: none;
-    background-color: #c7c7c7;
+    background-color: #fff;
+    box-shadow: none;
+    border: 2px solid #eaeaea;
     color: #616263;
+}
+
+.pure-button-secondary:hover,
+a.pure-button-secondary:hover {
+    border-color: #dadada;
+    box-shadow: none;
 }
 
 .pure-button-warning,
 a.pure-button-warning,
 a.pure-button-warning:hover,
 a.pure-button-warning:visited {
-    border-bottom: none;
     background-color: #FD5248;
     color: #ffffff;
 }
@@ -50,7 +61,6 @@ a.pure-button-warning:visited {
 a.pure-button-attention,
 a.pure-button-attention:hover,
 a.pure-button-attention:visited {
-    border-bottom: none;
     background-color: #FFBA3A;
     color: #ffffff;
 }
@@ -59,15 +69,22 @@ a.pure-button-attention:visited {
 a.pure-button-safe,
 a.pure-button-safe:hover,
 a.pure-button-safe:visited {
-    border-bottom: none;
     background-color: #BECA27;
     color: #ffffff;
 }
 
 .pure-button-active,
 .pure-button:active {
-    box-shadow: rgba(0,0,0,0.2) 0 0 10px inset;
-    border-bottom: none;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;
+    -moz-box-shadow:    rgba(0,0,0,0.1) 0 0 10px inset;
+    box-shadow:         rgba(0,0,0,0.1) 0 0 10px inset;
+}
+.pure-button-active:hover,
+.pure-button-active:active,
+.pure-button-active:focus {
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;
+    -moz-box-shadow:    rgba(0,0,0,0.1) 0 0 10px inset;
+    box-shadow:         rgba(0,0,0,0.1) 0 0 10px inset;
 }
 
 .pure-button[disabled],
@@ -81,5 +98,5 @@ a.pure-button-safe:visited {
     opacity: 0.40;
     cursor: not-allowed;
     box-shadow: none;
-    border-bottom: none;
+    border: none;
 }
