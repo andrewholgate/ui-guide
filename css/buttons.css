@@ -18,9 +18,9 @@
 .pure-button:hover,
 .pure-button:focus {
     background-image: none;
-    -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 6px;
-    -moz-box-shadow:    rgba(0,0,0,0.15) 0 1px 6px;
-    box-shadow:         rgba(0,0,0,0.15) 0 1px 6px;
+    -webkit-box-shadow: rgba(0,0,0,0.25) 0 1px 6px;
+    -moz-box-shadow:    rgba(0,0,0,0.25) 0 1px 6px;
+    box-shadow:         rgba(0,0,0,0.25) 0 1px 6px;
 }
 
 .pure-button-primary,
@@ -42,7 +42,7 @@ a.pure-button-secondary:visited {
 
 .pure-button-secondary:hover,
 a.pure-button-secondary:hover {
-    border-color: #dadada;
+    border-color: #cacaca;
     box-shadow: none;
 }
 
