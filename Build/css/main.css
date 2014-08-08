@@ -196,8 +196,8 @@ small {line-height: 1em;}
 .sub-nav .pure-menu {margin-bottom: 1em; border: none;}
 
 .content a {color: #3498DB; text-decoration: none;}
-.content a:visited {color: #52BFFF;}
-.content a:hover {color: #0192ff; border-bottom: 1px solid #52BFFF;}
+.content a:visited {color: #2E86C1;}
+.content a:hover {color: #3498DB; border-bottom: 1px solid #3498DB;}
 
 .content {max-width: 646px; margin-bottom: 4em; padding-top: 1em;}
 .content h2 + p,
@@ -333,6 +333,7 @@ small {line-height: 1em;}
     border-left: 5px solid #FFBA3A;
     font-size: 0.813em;
     line-height: 1.4;
+    margin: 1em 0;
 }
 .notice .title {
     margin: 0.25em 0;
