@@ -387,6 +387,9 @@ a:hover {
 }
 .preview.plain {
     background-color: #fff;
+}
+.preview.simple {
+    background-color: #fff;
     text-align: left;
 }
 
