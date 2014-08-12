@@ -28,6 +28,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-color: #fff;
 }
 
 /*
@@ -99,7 +100,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {background-color: #fff; padding-top: 3em;}
+
 .wrapper {
     margin: 0 auto;
     max-width: 1000px;
@@ -172,10 +173,7 @@ small {line-height: 1em;}
     color: #ffffff;
     box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
     padding: 1em 1.25em;
-    position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000;
 }
 .masthead .logo {font-size: 1em; margin: 0;}
 .masthead .logo a {
@@ -183,25 +181,44 @@ small {line-height: 1em;}
     border: none;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1em 1.25em;
+    padding: 1em;
 }
 
 .l-box {
     padding-right: 1.5em; padding-top: 2em;
 }
+
 .sub-nav {
-    position: fixed;
-    top: 5em;
-    width: 210px;
     background-color: #fff;
+    top: 1em;
+    width: 210px;
 }
+.sub-nav.sticky {position: fixed;}
+.sub-nav .pure-menu .current a {background-color: #eee;}
 .sub-nav .pure-menu {margin-bottom: 1em; border: none;}
+.language-markup.full {
+    overflow: visible;
+}
 
-.content a {color: #3498DB; text-decoration: none;}
-.content a:visited {color: #2E86C1;}
-.content a:hover {color: #3498DB; border-bottom: 1px solid #3498DB;}
+a:link {
+    color: #3498DB;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+a:visited {
+    color: #2E86C1;
+    border-bottom: 1px solid transparent;
+}
+a:hover {
+    color: #3498DB;
+    border-bottom: 1px solid #3498DB;
+}
 
-.content {max-width: 646px; margin-bottom: 4em; padding-top: 1em;}
+.content {
+    max-width: 646px;
+    margin-bottom: 4em;
+    padding-top: 1em;
+}
 .content h2 + p,
 .content h3 + p,
 .content h4 + p,
@@ -222,14 +239,29 @@ small {line-height: 1em;}
 }
 .section-center {text-align: center;}
 
-.footer {border-top: 1px solid #f0f0f0; color: #909192; padding: 1em 1.25em;}
-.footer .logo {float: left; max-width: 128px;}
+.footer {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+    color: #909192;
+    padding: 1em 1.25em;
+}
+.footer .logo {
+    float: left;
+    max-width: 128px;
+}
 .footer .copyrights {float: right;}
 
 
 /* ==========================================================================
    Section colours & typography
    ========================================================================== */
+.pure-menu li a {
+    color: #777;
+    border: 1px solid transparent;
+    border-left: 0;
+    border-right: 0;
+}
 .alternate {background-color: #212D3C; color: #f0f1f2;}
 
 .wrapper p + ul.inline-grid {margin-top: 3em;}
@@ -317,7 +349,7 @@ small {line-height: 1em;}
 .type-bold {font-weight: 700;}
 .type-bold-i {font-weight: 700; font-style: italic;}
 
-.type-sizes {text-align: center; margin: 4em 0;}
+.type-sizes {margin: 4em 0;}
 .type-sizes .label {
     font-size: 16px;
     font-weight: bold;
@@ -330,19 +362,15 @@ small {line-height: 1em;}
 }
 
 .notice {
-    background-color: #f8f8f8;
+    background-color: #fafafa;
     padding: 0.5em 1em;
     border-left: 5px solid #FFBA3A;
     font-size: 0.813em;
     line-height: 1.4;
     margin: 1em 0;
 }
-.notice .title {
-    margin: 0.25em 0;
-}
-.notice p:last-child {
-    margin-bottom: 0;
-}
+.notice .title {margin: 0.25em 0;}
+.notice p:last-child {margin-bottom: 0;}
 
 
 .preview {
@@ -359,6 +387,26 @@ small {line-height: 1em;}
 }
 .preview.plain {
     background-color: #fff;
+    text-align: left;
+}
+
+.side-nav {
+    float: right;
+    width: 196px;
+    margin: 1em 0 1em 1em;
+    padding: 0.75em 1em;
+    background-color: #fafafa;
+    border-left: 5px solid #dedede;
+}
+.side-nav h4 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #eaeaea;
+}
+.side-nav ol {
+    margin: 0;
+    padding: 0 0 0 1.25em;
 }
 
 
