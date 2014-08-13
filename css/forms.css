@@ -304,12 +304,12 @@
     margin-bottom: -1px;
 }
 .pure-form input.valid {
-    border-color: #9fc734;
+    border-color: #BECA27;
 }
 .pure-form .error {
     color: #fff;
     display: inline-block;
-    background-color: #FF9640;
+    background-color: #ffba3a;
     padding: 0.25em 0.5em;
     margin-bottom: 0;
     font-size: 0.813em;
