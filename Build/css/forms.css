@@ -143,17 +143,17 @@
 .pure-form textarea.invalid,
 .pure-form select.invalid {
     color: #3a1a2a;
-    border-color: #FF9640;
+    border-color: #ffba3a;
 }
 .pure-form input:focus:invalid:focus,
 .pure-form textarea:focus:invalid:focus,
 .pure-form select:focus:invalid:focus {
-    border-color: #FF9640;
+    border-color: #ffba3a;
 }
 .pure-form input[type="file"]:focus:invalid:focus,
 .pure-form input[type="radio"]:focus:invalid:focus,
 .pure-form input[type="checkbox"]:focus:invalid:focus {
-    outline-color: #FF9640;
+    outline-color: #ffba3a;
 }
 .pure-form select {
     border: 1px solid #ccc;
