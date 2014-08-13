@@ -3,6 +3,14 @@
 <!-- @include _header -->
 
 		<div class="content">
+			<div class="side-nav">
+				<h4>Contents</h4>
+				<ol>
+					<li><a href="#requirements">Requirements</a></li>
+					<li><a href="#invalid">Invalid Pattern</a></li>
+					<li><a href="#valid">Validated Pattern</a></li>
+				</ol>
+			</div>
 
 			<h1>Form Validation</h1>
 			<p>When designing forms, you should not forget to apply inline validation to them. This will ensure that whoever is asked to fill it in, will be instantly prompted to correct a mistake, should it occur, <em>before submitting the form</em>.</p>
@@ -13,7 +21,7 @@
 				<p>Inline validation should not be used on its own. Please, make sure there is always server-side validation in place, to minimise the risk of processing invalid data.</p>
 			</div>
 
-			<h3 class="section-title">Requirements</h3>
+			<h3 class="section-title" id="requirements">Requirements</h3>
 			<p>By default, WFP uses a <a href="http://jqueryvalidation.org/">jQuery Validation Plugin</a>, which is well documented and actively supported. Please, refer to its documentation for ways to implement inline validation for your forms.</p>
 			<p>To properly mark up your forms, follow the examples below. Make sure you load <code>forms.css</code> stylesheet to have all required styles applied to your forms automatically.</p>
 			<p>You are free to use your own validator script, as long as the validation can be done according to our general guidelines and uses the UI styles below.</p>
@@ -25,7 +33,7 @@
 				<li><b>(optional)</b> to add a <code>pattern</code> attribute, which will provide a base for native HTML5 validation (only for supported browsers or compatible validation plugins).</li>
 			</ul>
 
-			<h3 class="section-title">Invalid Pattern</h3>
+			<h3 class="section-title" id="invalid">Invalid Pattern</h3>
 			<p>To correctly show an invalid field, add class <code>invalid</code> to an input element. Next, insert error description using <code>span</code> with a class <code>error</code> just below the input.</p>
 
 			<h6>Example</h6>
@@ -56,7 +64,7 @@
 	&lt;/div&gt;
 &lt;/form&gt;</code></pre>
 
-			<h3 class="section-title">Validated Pattern</h3>
+			<h3 class="section-title" id="valid">Validated Pattern</h3>
 			<p>When inputs are validated successfuly, you should replace their <code>invalid</code> class with <code>valid</code> and remove or hide the error description.</p>
 
 			<h6>Example</h6>
