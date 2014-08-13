@@ -366,6 +366,7 @@ a:hover {
     padding: 0.5em 1em;
     border-left: 5px solid #FFBA3A;
     font-size: 0.813em;
+    font-style: italic;
     line-height: 1.4;
     margin: 1em 0;
 }
@@ -474,7 +475,6 @@ a:hover {
 .breadcrumbs li a.home img {
     vertical-align: baseline;
 }
-
 
 
 /* ==========================================================================
@@ -591,7 +591,7 @@ a:hover {
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+       (min-resolution: 120dppx) {
     /* Style adjustments for high resolution devices */
 }
 

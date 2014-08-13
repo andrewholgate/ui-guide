@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Patterns / Form Validation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon-precomposed" sizes="http://cdn.wfp.org/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="http://cdn.wfp.org/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="http://cdn.wfp.org/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="http://cdn.wfp.org/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="http://cdn.wfp.org/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="http://cdn.wfp.org/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://cdn.wfp.org/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="http://cdn.wfp.org/favicon.ico">
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel='stylesheet' href='../css/forms.css'>
+<link rel='stylesheet' href='../css/prism.css'>
+<link rel='stylesheet' href='../css/main.css'>
+<link rel='stylesheet' href='../css/buttons.css'>
+
+    <script src="//use.typekit.net/eav6fth.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src='../js/vendor/modernizr-2.6.2.min.js'></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header class="pure-g masthead">
+      <div class="pure-u-1 wrapper">
+        <h1 class="logo"><a href="../index.html">WFP UI Style Guide</a></h1>
+      </div>
+    </header>
+
+    <section class="pure-g wrapper patterns">
+      <aside class="pure-u-1-4 l-box">
+        	<nav class="sub-nav">
+		<div class="pure-menu pure-menu-open">
+			<a href="../styles/design.html" class="pure-menu-heading">Styles</a>
+			<ul>
+				<li><a href="../styles/design.html">Design Principles</a></li>
+				<li><a href="../styles/colours.html">Colours</a></li>
+				<li><a href="../styles/typography.html">Typography</a></li>
+				<li><a href="../styles/images.html">Images</a></li>
+				<li><a href="../styles/icons.html">Icons</a></li>
+			</ul>
+		</div>
+		<div class="pure-menu pure-menu-open">
+			<a href="../components/fonts.html" class="pure-menu-heading">Components</a>
+			<ul>
+				<li><a href="../components/branding-toolkit.html">Branding Toolkit</a></li>
+				<li><a href="../components/fonts.html">Fonts &amp; Content</a></li>
+				<li><a href="../components/buttons.html">Buttons</a></li>
+				<li><a href="../components/forms.html">Form Elements</a></li>
+			</ul>
+		</div>
+		<div class="pure-menu pure-menu-open">
+			<a href="#" class="pure-menu-heading">Patterns</a>
+			<ul>
+				<li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+				<li class='current'><a class='current' href="form-validation.html">Form Validation</a></li>
+			</ul>
+		</div>
+		<div class="pure-menu pure-menu-open">
+			<a href="#" class="pure-menu-heading">Publishing</a>
+		</div>
+	</nav>
+      </aside>
+      <div class="pure-u-3-4">
+
+		<div class="content">
+
+			<h1>Form Validation</h1>
+			<p>When designing forms, you should not forget to apply inline validation to them. This will ensure that whoever is asked to fill it in, will be instantly prompted to correct a mistake, should it occur, <em>before submitting the form</em>.</p>
+			<p>This will ensure that the experience is smooth and the probablility of the data loss is reduced to a minimum.</p>
+
+			<div class="notice">
+				<h4 class="title">Notice</h4>
+				<p>Inline validation should not be used on its own. Please, make sure there is always server-side validation in place, to minimise the risk of processing invalid data.</p>
+			</div>
+
+			<h3 class="section-title">Requirements</h3>
+			<p>By default, WFP uses a <a href="http://jqueryvalidation.org/">jQuery Validation Plugin</a>, which is well documented and actively supported. Please, refer to its documentation for ways to implement inline validation for your forms.</p>
+			<p>To properly mark up your forms, follow the examples below. Make sure you load <code>forms.css</code> stylesheet to have all required styles applied to your forms automatically.</p>
+			<p>You are free to use your own validator script, as long as the validation can be done according to our general guidelines and uses the UI styles below.</p>
+			<p>Generally all types of fields can follow the same patterns. If you have a very specific case where it would be difficult to apply them, you can use a custom one, as long at it follows general visual guidelines set in the examples below (colours and display).</p>
+			<h4>Form validation requires generally the following:</h4>
+			<ul>
+				<li>to add attribute <code>required</code> to an elements which are mandatory;</li>
+				<li>to add a correct <code>type</code> attribute value for a give element (such as <code>email</code> or <code>number</code>;</li>
+				<li><b>(optional)</b> to add a <code>pattern</code> attribute, which will provide a base for native HTML5 validation (only for supported browsers or compatible validation plugins).</li>
+			</ul>
+
+			<h3 class="section-title">Invalid Pattern</h3>
+			<p>To correctly show an invalid field, add class <code>invalid</code> to an input element. Next, insert error description using <code>span</code> with a class <code>error</code> just below the input.</p>
+
+			<h6>Example</h6>
+			<div class="preview simple pure-form pure-form-stacked clearfix">
+				<div class="pure-form-input-1-2">
+					<label for="full-name">Full name:</label>
+					<input class="invalid" id="full-name" type="text" placeholder="e.g.: John Doe" required>
+					<span class="error">Please, enter your full name.</span>
+				</div>
+				<div class="pure-form-input-1-2">
+					<label for="email">Email address:</label>
+					<input class="invalid" id="email" type="email" placeholder="e.g.: john@doe.com" required>
+					<span class="error">Please, use a correct email address.</span>
+				</div>
+			</div>
+
+			<h6>Sample Markup</h6>
+			<pre class="language-markup"><code class="language-markup">&lt;form class=&quot;pure-form pure-form-stacked clearfix&quot;&gt;
+	&lt;div class=&quot;pure-form-input-1-2&quot;&gt;
+		&lt;label for=&quot;full-name&quot;&gt;Full name:&lt;/label&gt;
+		&lt;input class=&quot;invalid&quot; id=&quot;full-name&quot; type=&quot;text&quot; placeholder=&quot;e.g.: John Doe&quot; required&gt;
+		&lt;span class=&quot;error&quot;&gt;Please, enter your full name.&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;pure-form-input-1-2&quot;&gt;
+		&lt;label for=&quot;email&quot;&gt;Email address:&lt;/label&gt;
+		&lt;input class=&quot;invalid&quot; id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;e.g.: john@doe.com&quot; required&gt;
+		&lt;span class=&quot;error&quot;&gt;Please, use a correct email address.&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/form&gt;</code></pre>
+
+			<h3 class="section-title">Validated Pattern</h3>
+			<p>When inputs are validated successfuly, you should replace their <code>invalid</code> class with <code>valid</code> and remove or hide the error description.</p>
+
+			<h6>Example</h6>
+			<div class="preview simple pure-form pure-form-stacked clearfix">
+				<div class="pure-form-input-1-2">
+					<label for="full-name">Full name:</label>
+					<input class="valid" id="full-name" type="text" placeholder="e.g.: John Doe" value="John Doe" required>
+					<span class="error" style="display: none">Please, enter your full name.</span>
+				</div>
+				<div class="pure-form-input-1-2">
+					<label for="email">Email address:</label>
+					<input class="valid" id="email" type="email" placeholder="e.g.: john@doe.com" value="john@doe.com" required>
+					<span class="error" style="display: none">Please, use a correct email address.</span>
+				</div>
+			</div>
+
+			<h6>Sample Markup</h6>
+			<pre class="language-markup"><code class="language-markup">&lt;form class=&quot;pure-form pure-form-stacked clearfix&quot;&gt;
+	&lt;div class=&quot;pure-form-input-1-2&quot;&gt;
+		&lt;label for=&quot;full-name&quot;&gt;Full name:&lt;/label&gt;
+		&lt;input class=&quot;valid&quot; id=&quot;full-name&quot; type=&quot;text&quot; placeholder=&quot;e.g.: John Doe&quot; value=&quot;John Doe&quot; required&gt;
+		&lt;span class=&quot;error&quot; style=&quot;display: none&quot;&gt;Please, enter your full name.&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;pure-form-input-1-2&quot;&gt;
+		&lt;label for=&quot;email&quot;&gt;Email address:&lt;/label&gt;
+		&lt;input class=&quot;valid&quot; id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;e.g.: john@doe.com&quot; value=&quot;john@doe.com&quot; required&gt;
+		&lt;span class=&quot;error&quot; style=&quot;display: none&quot;&gt;Please, use a correct email address.&lt;/span&gt;
+	&lt;/div&gt;
+&lt;/form&gt;</code></pre>
+
+		</div>
+
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="wrapper clearfix">
+				<div class="logo">
+					<p>WFP UI &amp; UX</p>
+				</div>
+				<div class="copyrights">
+					<p>2014 &copy; World Food Programme. All Rights Reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+    <script src='../js/vendor/jquery-1.9.1.min.js'></script>
+<script src='../js/plugins.js'></script>
+<script src='../js/vendor/prism.min.js'></script>
+<script src='../js/main.js'></script>
+  </body>
+</html>
