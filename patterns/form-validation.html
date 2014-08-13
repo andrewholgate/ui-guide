@@ -22,16 +22,17 @@
 			</div>
 
 			<h3 class="section-title" id="requirements">Requirements</h3>
-			<p>By default, WFP uses a <a href="http://jqueryvalidation.org/">jQuery Validation Plugin</a>, which is well documented and actively supported. Please, refer to its documentation for ways to implement inline validation for your forms.</p>
-			<p>To properly mark up your forms, follow the examples below. Make sure you load <code>forms.css</code> stylesheet to have all required styles applied to your forms automatically.</p>
-			<p>You are free to use your own validator script, as long as the validation can be done according to our general guidelines and uses the UI styles below.</p>
+			<p>By default, WFP recommends a <a href="http://jqueryvalidation.org/">jQuery Validation Plugin</a>, which is well documented and actively supported. Please, refer to its documentation for ways to implement inline validation for your forms.</p>
+			<p>To properly mark up your forms, follow the examples below. Make sure to load <code>forms.css</code> stylesheet to have all required styles applied to your forms automatically.</p>
+			<p>You are free to use your own validator script, as long as the validation can be done according to our general guidelines and uses the UI styles showcased below.</p>
 			<p>Generally all types of fields can follow the same patterns. If you have a very specific case where it would be difficult to apply them, you can use a custom one, as long at it follows general visual guidelines set in the examples below (colours and display).</p>
 			<h4>Form validation requires generally the following:</h4>
 			<ul>
-				<li>to add attribute <code>required</code> to an elements which are mandatory;</li>
-				<li>to add a correct <code>type</code> attribute value for a give element (such as <code>email</code> or <code>number</code>;</li>
+				<li>to add attribute <code>required</code> to elements which are mandatory;</li>
+				<li>to add a correct value for the <code>type</code> attribute (such as <code>email</code> or <code>number</code>;</li>
 				<li><b>(optional)</b> to add a <code>pattern</code> attribute, which will provide a base for native HTML5 validation (only for supported browsers or compatible validation plugins).</li>
 			</ul>
+			<p>For more information about available HTML5 <code>input</code> attributes, visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#Attributes">Mozilla Developer Network</a> pages.</p>
 
 			<h3 class="section-title" id="invalid">Invalid Pattern</h3>
 			<p>To correctly show an invalid field, add class <code>invalid</code> to an input element. Next, insert error description using <code>span</code> with a class <code>error</code> just below the input.</p>
@@ -45,7 +46,7 @@
 				</div>
 				<div class="pure-form-input-1-2">
 					<label for="email">Email address:</label>
-					<input class="invalid" id="email" type="email" placeholder="e.g.: john@doe.com" required>
+					<input class="invalid" id="email" type="email" placeholder="e.g.: john@doe.com" value="incorrect@email" required>
 					<span class="error">Please, use a correct email address.</span>
 				</div>
 			</div>
