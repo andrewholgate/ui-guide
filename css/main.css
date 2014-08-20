@@ -381,6 +381,7 @@ a:hover {
     border-top: 2px solid #f0f1f2;
     border-bottom: 2px solid #f0f1f2;
     margin: 1em 0;
+    max-width: 100%;
 }
 .preview.paragraph {
     padding: 1em 2em;
@@ -393,6 +394,11 @@ a:hover {
     background-color: #fff;
     text-align: left;
 }
+.preview.image {
+    padding: 0;
+    border: none;
+}
+.preview.image img {max-width: 100%;}
 
 .side-nav {
     float: right;
