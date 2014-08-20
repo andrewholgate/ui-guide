@@ -256,6 +256,7 @@ a:hover {
 /* ==========================================================================
    Section colours & typography
    ========================================================================== */
+.pure-menu-heading {margin-bottom: 0;}
 .pure-menu li a {
     color: #777;
     border: 1px solid transparent;
