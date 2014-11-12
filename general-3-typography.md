@@ -6,7 +6,7 @@ resource: true
 categories: General
 ---
 
-<div class="side-nav">
+<div class="content-nav">
   <h4>Contents</h4>
   <ol>
     <li><a href="#typefaces">Typefaces</a></li>

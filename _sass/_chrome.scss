@@ -38,7 +38,7 @@
     }
 }
 
-.side-nav {
+.content-nav {
     width: 100%;
     margin-bottom: 1em;
     padding: 0.75em 1em;
@@ -46,13 +46,13 @@
     border-left: 6px solid #dedede;
     border-radius: 2px;
 }
-.side-nav h4 {
+.content-nav h4 {
     margin: 0;
     margin-bottom: 0.5em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid #eaeaea;
 }
-.side-nav ol {
+.content-nav ol {
     margin: 0;
     padding: 0 0 0 1.25em;
 }
@@ -238,7 +238,7 @@
 }
 
 @include media-query($md-screen) {
-    .side-nav {
+    .content-nav {
         max-width: 192px;
         float: right;
         margin: 0;

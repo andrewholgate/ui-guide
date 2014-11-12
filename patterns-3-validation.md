@@ -6,7 +6,7 @@ resource: true
 categories: Patterns
 ---
 
-<div class="side-nav">
+<div class="content-nav">
   <h4>Contents</h4>
   <ol>
     <li><a href="#requirements">Requirements</a></li>
