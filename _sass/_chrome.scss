@@ -1,0 +1,247 @@
+/* ==========================================================================
+   WFP UI Guide Styles
+   ========================================================================== */
+.sub-nav {
+    background-color: #fff;
+    top: 1em;
+    width: 100%;
+}
+.sub-nav .pure-menu {
+    margin-bottom: 1em;
+    border: none;
+    & ul li {
+        border: none;
+    }
+    & ul li a {
+        color: $grey;
+        border: 1px solid transparent;
+        border-left: 0;
+        border-right: 0;
+        padding: ($spacing-unit / 4) ($spacing-unit / 2);
+        text-transform: none;
+    }
+    & .current a,
+    & li a:hover {
+        background-color: $grey-light;
+    }
+}
+.sub-nav .pure-menu-heading {
+    color: $grey;
+    padding: ($spacing-unit / 8) ($spacing-unit / 2);
+    margin-bottom: 0;
+}
+.sub-nav.sticky {
+    position: fixed;
+    max-width: 226px;
+    > .pure-menu {
+        display: none;
+    }
+}
+
+.content-nav {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.75em 1em;
+    background-color: #fafafa;
+    border-left: 6px solid #dedede;
+    border-radius: 2px;
+}
+.content-nav h4 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #eaeaea;
+}
+.content-nav ol {
+    margin: 0;
+    padding: 0 0 0 1.25em;
+}
+
+.section-title {
+    margin-bottom: $spacing-unit / 4;
+    padding-bottom: $spacing-unit / 4;
+    border-bottom: 1px solid #dedede;
+}
+
+.footer .copyrights h4 {
+    font-weight: normal;
+}
+
+/**
+ * Custom Colour & Typography Grids
+ */
+.inline-grid {
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+.inline-grid > li {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+.inline-grid .inline-item {
+    width: 100%;
+    height: 152px;
+    line-height: 128px;
+    font-size: 48px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.inline-grid.colours .inline-item {
+    height: 100px;
+    border-bottom: 16px solid rgba(0,0,0,0.1);
+}
+.inline-grid.long .inline-item {
+    height: 112px;
+}
+.inline-grid.normal {
+    border-radius: 3px;
+    background-color: $grey-light;
+}
+.inline-grid.normal .block {
+    text-align: left;
+    overflow: visible;
+    background-color: transparent;
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    > h6 {
+        margin: 0;
+    }
+    > ul {
+        list-style: square;
+        margin: 0;
+    }
+    > ul > li {
+        margin-bottom: 0;
+    }
+}
+.inline-grid.icons li {
+    height: 160px;
+    position: relative;
+}
+.inline-grid.icons .inline-item {height: 96px;}
+.inline-grid.icons .inline-item img {max-width: 80%; vertical-align: top;}
+
+.inline-grid .inline-item.c-1 {background-color: $primary;}
+.inline-grid .inline-item.c-2 {background-color: $primary-light;}
+.inline-grid .inline-item.c-3 {background-color: $grey;}
+.inline-grid .inline-item.c-4 {background-color: $grey-light;}
+.inline-grid .inline-item.c-5 {background-color: $white;}
+
+.inline-grid .inline-item.c-6 {background-color: $accent;}
+.inline-grid .inline-item.c-7 {background-color: $accent-1;}
+.inline-grid .inline-item.c-8 {background-color: $accent-2;}
+.inline-grid .inline-item.c-9 {background-color: $accent-3;}
+.inline-grid .inline-item.c-10 {background-color: $accent-4;}
+
+.inline-grid .inline-item.c-11 {background-color: $grey-light;}
+.inline-grid .inline-item.c-12 {background-color: $grey-1;}
+.inline-grid .inline-item.c-13 {background-color: $grey-2;}
+.inline-grid .inline-item.c-14 {background-color: $grey-3;}
+.inline-grid .inline-item.c-15 {background-color: $grey-4;}
+
+.inline-grid .inline-item.c-16 {background-color: $red;}
+.inline-grid .inline-item.c-17 {background-color: $orange;}
+.inline-grid .inline-item.c-18 {background-color: $yellow;}
+.inline-grid .inline-item.c-19 {background-color: $green;}
+
+.inline-grid .desc {
+    padding: 0.75em 0;
+    > h4, p {
+        font-size: 0.813em;
+        margin: 0;
+        color: #838485;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    > h4 {
+        font-weight: bold;
+    }
+}
+.inline-grid.icons .desc {
+    padding: 0.5em 0;
+    > p {
+        line-height: 1.35em; text-transform: capitalize;
+    }
+}
+
+/**
+ * Typography
+ */
+.sans {font-family: $sans-serif-stack;}
+.serif {font-family: $serif-stack;}
+
+.type-light {font-weight: 300;}
+.type-medium {font-weight: 400;}
+.type-medium-i {font-weight: 400; font-style: italic;}
+.type-semi {font-weight: 600;}
+.type-semi-i {font-weight: 600; font-style: italic;}
+.type-bold {font-weight: 700;}
+.type-bold-i {font-weight: 700; font-style: italic;}
+
+.type-sizes {
+    margin: 2em 0;
+    > .label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #184679;
+        margin-bottom: 0;
+    }
+    > .example {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+}
+
+
+.preview {
+    background-color: $grey-lighter;
+    padding: ($spacing-unit * 1.5) $spacing-unit;
+    text-align: center;
+    border-top: 2px solid $grey-light;
+    border-bottom: 2px solid $grey-light;
+    margin: ($spacing-unit / 2) 0;
+    max-width: 100%;
+    &.paragraph {
+        padding: ($spacing-unit / 2) $spacing-unit;
+        text-align: left;
+    }
+    &.plain {
+        background-color: #fff;
+    }
+    &.simple {
+        background-color: #fff;
+        text-align: left;
+    }
+    &.image {
+        padding: 0;
+        border: none;
+        > img {
+            max-width: 100%;
+        }
+    }
+}
+
+.notice {
+    background-color: #fafafa;
+    padding: 0.5em 1em;
+    border-left: 6px solid #FFBA3A;
+    border-radius: 2px;
+    font-size: 0.813em;
+    font-style: italic;
+    line-height: 1.4;
+    margin: 1em 0;
+    > * {
+        margin: 0.25em 0;
+    }
+}
+
+@include media-query($md-screen) {
+    .content-nav {
+        max-width: 192px;
+        float: right;
+        margin: 0;
+        margin-left: 1em;
+    }
+}

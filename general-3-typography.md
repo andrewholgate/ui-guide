@@ -1,0 +1,113 @@
+---
+layout: page
+title: Typography
+permalink: /general/typography/
+resource: true
+categories: General
+---
+
+<div class="content-nav">
+  <h4>Contents</h4>
+  <ol>
+    <li><a href="#typefaces">Typefaces</a></li>
+    <li><a href="#sizing">Sizing</a></li>
+    <li><a href="#dos-and-donts">Dos and Don'ts</a></li>
+  </ol>
+</div>
+
+Typography plays a critical role in a design. It adds personality to content, becomes its voice. When it's established poorly, elements become unreadable, or badly aligned, thus reducing the impact a given piece of content will have on the reader.
+
+### Typefaces
+_Lato_ type family is our primary typeface for web presentation; a round and smooth sans-serif font with a very humanist appeal. It can be used for both, headlines and paragraphs alike, as well as for interface elements.
+
+<ul class="pure-g inline-grid short">
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-medium sans">Aa</div>
+    <div class="desc">
+      <p>Regular</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-medium-i sans">Aa</div>
+    <div class="desc">
+      <p>Regular Italic</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-semi sans">Aa</div>
+    <div class="desc">
+      <p>Semibold</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-semi-i sans">Aa</div>
+    <div class="desc">
+      <p>Semibold Italic</p>
+    </div>
+  </li>
+</ul>
+
+_Calluna_ is a great typeface that is easy on the eye and covers a wide range of applications, from large headlines to small print type. Although it looks great in both paragraphs and headlines, it should be used sparingly where a slight emphasis is required, such as main article page titles, intros, or pull-out quotes.
+
+<ul class="pure-g inline-grid short">
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-medium serif">Aa</div>
+    <div class="desc">
+      <p>Regular</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-medium-i serif">Aa</div>
+    <div class="desc">
+      <p>Regular Italic</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-semi serif">Aa</div>
+    <div class="desc">
+      <p>Semibold</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-4">
+    <div class="inline-item type-semi-i serif">Aa</div>
+    <div class="desc">
+      <p>Semibold Italic</p>
+    </div>
+  </li>
+</ul>
+
+### Sizing
+The size of your text is as important for your message, as your WFP colours are to its branding. When the type is too small or too large, it becomes illegible, thus increasing the strain on the reader's eyes, making reading uncomfortable.
+
+To make your text legible and readable follow the guidelines below to setting your type:
+
+<ul class="pure-g inline-grid normal">
+  <li class="pure-u-1 pure-u-md-1-2 block">
+    <h6>Sans-serif</h6>
+    <ul>
+      <li>Base font-size: <b>16px</b>;</li>
+      <li>Minimum font-size: <b>13px</b>;</li>
+      <li>Line-height: <b>1.562em</b>;</li>
+    </ul>
+  </li>
+  <li class="pure-u-1 pure-u-md-1-2 block">
+    <h6>Serif</h6>
+    <ul>
+      <li>Base font-size: <b>16px</b>;</li>
+      <li>Minimum font-size: <b>13px</b>;</li>
+      <li>Line-height: <b>1.4em</b>;</li>
+    </ul>
+  </li>
+</ul>
+
+###### Example Sizes
+
+- 13px—an absolute minimum, used only for small interface elements, or small print (notices, image descriptions); not intended for main body text;
+- 16px—our base font size, used for majority of things, from body text, to interface elements; it's a minimum recommended size for body text;
+- 13–32px—a range of sizes covering headings, from the smallest, to the largest; these should always be displayed in bold.
+
+### Dos and Don'ts
+- Don't try to mix two typefaces within a single section, such as a paragraph or a heading. If you need to differentiate a piece of text, use _stressed emphasis_ or __strong importance__.
+- Don't try to mix different sizes of text within a single section or use editing tools to apply styling or colour to the text manually. Underlines are allowed only on links, but they belong to a different set of styles, separated from the above guidelines.
+- Always keep the colour contrast in mind. Your copy should be readable and easy on the eye. Try to avoid plain white or black colours to style text and/or background. Our basic body text colour is `#303132` and we use `#ffffff` for the background.
+- Always keep your content plain and simple. Don't add unnecessary formatting where it's not required and leave styling of the content to your desiger. This will ensure all of it looks consistent.

@@ -1,0 +1,24 @@
+# Site settings
+title: WFP UI Guide
+email: ""
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  input: GFM
+
+category-list: [General, Components, Patterns]
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
