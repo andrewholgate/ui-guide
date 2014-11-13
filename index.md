@@ -10,3 +10,8 @@ Building on this initiative, the World Food Programme’s User Interface Style G
 This website contains a set of guidelines which are to be applied to all WFP digital products such as websites, web applications, internal systems and other. These guidelines were defined to help create, in an easy way, consistent and attractive user interfaces for WFP's properties.
 
 All feedback, questions and comments are welcome at: [wfp.publications@wfp.org](mailto:WFP.PUBLICATIONS@wfp.org).
+
+<div class="notice">
+  <h6 class="title">Notice</h6>
+  <p>Resources should not be spent trying to modify legacy systems, 3rd party applications or other user interfaces which cannot easily be customised.</p>
+</div>
