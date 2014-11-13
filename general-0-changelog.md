@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Changelog
-permalink: /general/changelog/
+permalink: /info/changelog/
 resource: true
-categories: General
+categories: Info
 ---
 
 ### v0.3.0

@@ -12,7 +12,7 @@ highlighter: pygments
 kramdown:
   input: GFM
 
-category-list: [General, Components, Patterns]
+category-list: [General, Components, Patterns, Info]
 
 # Defaults
 defaults:
