@@ -90,8 +90,8 @@
     border-bottom: 1px solid #f0f0f0;
 }
 .inline-grid.colours .inline-item {
-    height: 100px;
-    border-bottom: 16px solid rgba(0,0,0,0.1);
+    height: 52px;
+    border-bottom: 12px solid rgba(0,0,0,0.1);
 }
 .inline-grid.long .inline-item {
     height: 112px;
@@ -123,28 +123,26 @@
 .inline-grid.icons .inline-item {height: 96px;}
 .inline-grid.icons .inline-item img {max-width: 80%; vertical-align: top;}
 
-.inline-grid .inline-item.c-1 {background-color: $primary;}
-.inline-grid .inline-item.c-2 {background-color: $primary-light;}
-.inline-grid .inline-item.c-3 {background-color: $grey;}
-.inline-grid .inline-item.c-4 {background-color: $grey-light;}
-.inline-grid .inline-item.c-5 {background-color: $white;}
+.inline-grid .inline-item.c-primary {background-color: $primary;}
+.inline-grid .inline-item.c-secondary {background-color: $secondary;}
+.inline-grid .inline-item.c-text {background-color: $grey;}
+.inline-grid .inline-item.c-background {background-color: $white;}
 
-.inline-grid .inline-item.c-6 {background-color: $accent;}
-.inline-grid .inline-item.c-7 {background-color: $accent-1;}
-.inline-grid .inline-item.c-8 {background-color: $accent-2;}
-.inline-grid .inline-item.c-9 {background-color: $accent-3;}
-.inline-grid .inline-item.c-10 {background-color: $accent-4;}
+.inline-grid .inline-item.c-blue-1 {background-color: $blue-1;}
+.inline-grid .inline-item.c-blue-2 {background-color: $blue-2;}
+.inline-grid .inline-item.c-blue-3 {background-color: $blue-3;}
+.inline-grid .inline-item.c-blue-4 {background-color: $blue-4;}
 
-.inline-grid .inline-item.c-11 {background-color: $grey-light;}
-.inline-grid .inline-item.c-12 {background-color: $grey-1;}
-.inline-grid .inline-item.c-13 {background-color: $grey-2;}
-.inline-grid .inline-item.c-14 {background-color: $grey-3;}
-.inline-grid .inline-item.c-15 {background-color: $grey-4;}
+.inline-grid .inline-item.c-grey-1 {background-color: $grey-light;}
+.inline-grid .inline-item.c-grey-2 {background-color: $grey-1;}
+.inline-grid .inline-item.c-grey-3 {background-color: $grey-2;}
+.inline-grid .inline-item.c-grey-4 {background-color: $grey-3;}
+.inline-grid .inline-item.c-grey-5 {background-color: $grey-4;}
 
-.inline-grid .inline-item.c-16 {background-color: $red;}
-.inline-grid .inline-item.c-17 {background-color: $orange;}
-.inline-grid .inline-item.c-18 {background-color: $yellow;}
-.inline-grid .inline-item.c-19 {background-color: $green;}
+.inline-grid .inline-item.c-red {background-color: $red;}
+.inline-grid .inline-item.c-orange {background-color: $orange;}
+.inline-grid .inline-item.c-yellow {background-color: $yellow;}
+.inline-grid .inline-item.c-green {background-color: $green;}
 
 .inline-grid .desc {
     padding: 0.75em 0;

@@ -7,12 +7,13 @@ categories: Info
 ---
 
 ### v0.3.0
-- Replaced Hammer tempaltes with a new Jekyll-based build.
+- Replaced Hammer templates with a new Jekyll-based build.
 - Replaced _Myriad Pro_ with _Lato_.
 - Restructured the whole guide, improved navigation.
 - Fixed intro text [#8], added a notice about UI customisation [#12].
 - Added a new pattern, Masthead, with basic info and screenshots.
 - Added a v0.1.0 of a CSS Toolkit for download.
+- Revamped colour palette for the entire WFP UI Guide.
 
 ### v0.1.4
 - Removed local downloads.

@@ -155,7 +155,7 @@ a {
     border-bottom: 1px solid $grey-light;
 
     &:visited {
-        color: darken($light-blue, 15%);
+        color: darken($blue-2, 15%);
     }
 
     &:hover {
@@ -197,7 +197,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-    border-left: 6px solid $primary-light;
+    border-left: 6px solid $blue-1;
     word-wrap: normal;
     > code {
         border: 0;

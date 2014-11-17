@@ -16,7 +16,7 @@
 .pure-form textarea {
     padding: 0.5em 0.65em;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid $grey-1;
     font-size: 0.813em;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
     border-radius: 1px;
@@ -34,7 +34,7 @@
 .pure-form input:not([type]) {
     padding: 0.5em 0.65em;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid $grey-1;
     font-size: 0.813em;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
     border-radius: 1px;
@@ -72,8 +72,8 @@
 .pure-form input[type="file"]:focus,
 .pure-form input[type="radio"]:focus,
 .pure-form input[type="checkbox"]:focus {
-    outline: thin dotted #333;
-    outline: 1px auto #129FEA;
+    outline: thin dotted $grey-2;
+    outline: 1px auto $blue-2;
 }
 .pure-form .checkbox,
 .pure-form .radio {
@@ -84,7 +84,7 @@
     appearance: none;
     border-style: solid;
     border-width: 1px;
-    border-color: #bbc0c4;
+    border-color: $grey-2;
 }
 .pure-form .checkbox:disabled,
 .pure-form .radio:disabled {
@@ -107,15 +107,15 @@
     margin-bottom: 4px;
 }
 .pure-form .checkbox:checked {
-    border-color: #308DF6;
-    background-color: #4DA1FF;
+    border-color: $blue-4;
+    background-color: $primary;
     background-image: url(../img/icons/checkmark.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center center;
 }
 .pure-form .radio:checked {
-    border-color: #308DF6;
+    border-color: $primary;
     border-width: 4px;
     background-color: #fff;
 }
@@ -156,20 +156,20 @@
 .pure-form textarea.invalid,
 .pure-form select.invalid {
     color: #3a1a2a;
-    border-color: #ffba3a;
+    border-color: $orange;
 }
 .pure-form input:focus:invalid:focus,
 .pure-form textarea:focus:invalid:focus,
 .pure-form select:focus:invalid:focus {
-    border-color: #ffba3a;
+    border-color: $orange;
 }
 .pure-form input[type="file"]:focus:invalid:focus,
 .pure-form input[type="radio"]:focus:invalid:focus,
 .pure-form input[type="checkbox"]:focus:invalid:focus {
-    outline-color: #ffba3a;
+    outline-color: $orange;
 }
 .pure-form select {
-    border: 1px solid #ccc;
+    border: 1px solid $grey-1;
     background-color: white;
     box-shadow: none;
 }
@@ -199,7 +199,7 @@
     margin-bottom: 0.3em;
     font-size: 125%;
     color: #333;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid $grey-light;
 }
 
 .pure-form-stacked input[type="text"],
@@ -319,12 +319,12 @@
     margin-bottom: -1px;
 }
 .pure-form input.valid {
-    border-color: #BECA27;
+    border-color: $green;
 }
 .pure-form .error {
-    color: #fff;
+    color: darken($orange, 40%);
     display: inline-block;
-    background-color: #ffba3a;
+    background-color: $orange;
     padding: 0.25em 0.5em;
     margin-bottom: 0;
     font-size: 0.813em;
@@ -338,7 +338,7 @@
 .pure-form-message-inline {
     display: inline-block;
     padding-left: 0.3em;
-    color: #666;
+    color: $grey-3;
     vertical-align: middle;
     font-size: 90%;
 }
@@ -346,7 +346,7 @@
 /* Block help for forms */
 .pure-form-message {
     display: block;
-    color: #666;
+    color: $grey-3;
     font-size: 90%;
 }
 

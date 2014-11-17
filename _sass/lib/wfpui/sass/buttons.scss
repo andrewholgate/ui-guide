@@ -31,7 +31,7 @@ a.pure-button:focus {
 .pure-button.selected,
 a.pure-button.primary,
 a.pure-button.selected {
-    background-color: $primary;
+    background-color: $secondary;
     text-shadow: rgba(0,0,0,0.2) 0 1px 1px;
     color: $white;
 }
@@ -41,7 +41,7 @@ a.pure-button.warning,
 a.pure-button.warning:hover,
 a.pure-button.warning:visited {
     background-color: $red;
-    color: darken($red, 35%);
+    color: lighten($red, 35%);
 }
 
 .pure-button.attention,
