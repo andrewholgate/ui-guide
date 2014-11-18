@@ -187,6 +187,7 @@ blockquote {
 pre,
 code {
     font-size: $base-font-size * 0.750;
+    font-style: normal;
     font-family: $mono-stack;
     background-color: $grey-lighter;
     border-radius: 2px;

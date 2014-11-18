@@ -19,6 +19,11 @@ categories: Components
 
 Forms are an important part of pages which ask users for input. They should be simple, clear and accessible for all audiences. Below you can find several important components from which the forms are assembled.
 
+<div class="notice">
+  <h6>Notice</h6>
+  <p>To ensure that WFP UI styles are correctly applied to your form elements, please add a class <code>pure-form</code> to your form wrappers.</p>
+</div>
+
 To see how these elements work together, you can have a look at some of the form patterns we use for WFP.
 
 ### Checkboxes
