@@ -24,7 +24,7 @@ Add the following lines to the `<head>` section of your page:
 <link rel="shortcut icon" href="http://cdn.wfp.org/favicon.ico" />
 {% endhighlight %}
 
-If your application/website is not able to connect to the Internet, you can use our [favicon offline kit]({{site.url}}/assets/favicon.zip) to host favicons locally. Download the ZIP file, unpack it and place its contents in the root of your site.
+If your application/website is not able to connect to the Internet, you can use our [favicon offline kit]({{site.baseurl}}/assets/favicon.zip) to host favicons locally. Download the ZIP file, unpack it and place its contents in the root of your site.
 
 ### CSS Toolkit
-To make sure your designs follow our guidelines with ease, we've created a dedicated [CSS Toolkit]({{site.url}}/assets/css-lib-0.1.0.zip), which you can download and include in your web pages and applications.
+To make sure your designs follow our guidelines with ease, we've created a dedicated [CSS Toolkit]({{site.baseurl}}/assets/css-lib-0.1.0.zip), which you can download and include in your web pages and applications.

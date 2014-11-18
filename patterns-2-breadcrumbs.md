@@ -18,7 +18,7 @@ Breadcrumbs should be displayed just below the masthead, possibly on their own, 
 ###### Preview
 <div class="preview plain">
   <ul class="breadcrumbs">
-    <li class="first"><a href="#" class="home"><img src="{{site.url}}/img/icons/home_dark.png" width="10" height="10"></a></li>
+    <li class="first"><a href="#" class="home"><img src="{{site.baseurl}}/img/icons/home_dark.png" width="10" height="10"></a></li>
     <li><a href="#">Our Work</a></li>
     <li><a href="#">Procurement</a></li>
     <li class="last">Food Tender Awards</li>
@@ -28,7 +28,7 @@ Breadcrumbs should be displayed just below the masthead, possibly on their own, 
 ###### Sample Markup
 {% highlight html %}
 <ul class="breadcrumbs">
-  <li class="first"><a href="#" class="home"><img src="{{site.url}}/img/icons/home_dark.png" width="10" height="10"></a></li>
+  <li class="first"><a href="#" class="home"><img src="/img/icons/home_dark.png" width="10" height="10"></a></li>
   <li><a href="#">Our Work</a></li>
   <li><a href="#">Procurement</a></li>
   <li class="last">Food Tender Awards</li>

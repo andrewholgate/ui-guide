@@ -2,8 +2,10 @@
 title: WFP UI Guide
 email: ""
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "" # "/content/wfp/guide" # the subpath of your site, e.g. /blog
+url: "" # "http://matthewmorek.com" # the base hostname & protocol for your site
+
+exclude: ["*.sublime-*", "*.sh", "*.yml", "*.DS_*"]
 
 # Build settings
 markdown: kramdown
