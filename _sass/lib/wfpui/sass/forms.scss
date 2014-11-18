@@ -17,7 +17,7 @@
     padding: 0.5em 0.65em;
     display: inline-block;
     border: 1px solid $grey-1;
-    font-size: 0.813em;
+    font-size: 0.875em;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
     border-radius: 1px;
     -webkit-transition: 0.3s linear border;
@@ -35,7 +35,7 @@
     padding: 0.5em 0.65em;
     display: inline-block;
     border: 1px solid $grey-1;
-    font-size: 0.813em;
+    font-size: 0.875em;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
     border-radius: 1px;
     -webkit-transition: 0.3s linear border;
@@ -327,7 +327,7 @@
     background-color: $orange;
     padding: 0.25em 0.5em;
     margin-bottom: 0;
-    font-size: 0.813em;
+    font-size: 0.875em;
 }
 .pure-form input.invalid + .error {
     border-radius: 0 0 2px 2px;

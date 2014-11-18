@@ -86,25 +86,25 @@ To make your text legible and readable follow the guidelines below to setting yo
     <h6>Sans-serif</h6>
     <ul>
       <li>Base font-size: <b>16px</b>;</li>
-      <li>Minimum font-size: <b>13px</b>;</li>
-      <li>Line-height: <b>1.562em</b>;</li>
+      <li>Minimum font-size: <b>14px</b>;</li>
+      <li>Line-height: <b>1.5em</b>;</li>
     </ul>
   </li>
   <li class="pure-u-1 pure-u-md-1-2 block">
     <h6>Serif</h6>
     <ul>
       <li>Base font-size: <b>16px</b>;</li>
-      <li>Minimum font-size: <b>13px</b>;</li>
-      <li>Line-height: <b>1.4em</b>;</li>
+      <li>Minimum font-size: <b>14px</b>;</li>
+      <li>Line-height: <b>1.5em</b>;</li>
     </ul>
   </li>
 </ul>
 
 ###### Example Sizes
 
-- 13px—an absolute minimum, used only for small interface elements, or small print (notices, image descriptions); not intended for main body text;
+- 14px—an absolute minimum, used only for small interface elements, or small print (notices, image descriptions); not intended for main body text;
 - 16px—our base font size, used for majority of things, from body text, to interface elements; it's a minimum recommended size for body text;
-- 13–32px—a range of sizes covering headings, from the smallest, to the largest; these should always be displayed in bold.
+- 14–32px—a range of sizes covering headings, from the smallest, to the largest; these should always be displayed in bold.
 
 ### Dos and Don'ts
 - Don't try to mix two typefaces within a single section, such as a paragraph or a heading. If you need to differentiate a piece of text, use _stressed emphasis_ or __strong importance__.
