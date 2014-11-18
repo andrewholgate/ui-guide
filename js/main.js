@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var top = $('.sub-nav').offset().top - parseFloat($('.sub-nav').css('marginTop').replace(/auto/, 100));
+  var top = $('#sidebar').offset().top - parseFloat($('#sidebar').css('marginTop').replace(/auto/, 100));
   $(window).scroll(function (event) {
     // what the y position of the scroll is
     var y = $(this).scrollTop();
@@ -7,10 +7,10 @@ $(document).ready(function(){
     // whether that's below the form
     if (y >= top) {
       // if so, ad the fixed class
-      $('.sub-nav').addClass('sticky');
+      $('#sidebar').addClass('sticky');
     } else {
       // otherwise remove it
-      $('.sub-nav').removeClass('sticky');
+      $('#sidebar').removeClass('sticky');
     }
   });
 });

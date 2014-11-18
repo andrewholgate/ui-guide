@@ -1,41 +1,9 @@
 /* ==========================================================================
    WFP UI Guide Styles
    ========================================================================== */
-.sub-nav {
-    background-color: #fff;
-    top: 1em;
-    width: 100%;
-}
-.sub-nav .pure-menu {
-    margin-bottom: 1em;
-    border: none;
-    & ul li {
-        border: none;
-    }
-    & ul li a {
-        color: $grey;
-        border: 1px solid transparent;
-        border-left: 0;
-        border-right: 0;
-        padding: 0.25em 1em;
-        text-transform: none;
-    }
-    & .current a,
-    & li a:hover {
-        background-color: $grey-light;
-    }
-}
-.sub-nav .pure-menu-heading {
-    color: $grey;
-    padding: ($spacing-unit / 8) ($spacing-unit / 2);
-    margin-bottom: 0;
-}
 .sub-nav.sticky {
     position: fixed;
     max-width: 226px;
-    > .pure-menu {
-        display: none;
-    }
 }
 
 .content-nav {

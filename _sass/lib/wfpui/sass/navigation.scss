@@ -1,3 +1,6 @@
+/*
+    Breadcrumbs
+*/
 .breadcrumbs {
     list-style: none;
     margin: 1em 0;
@@ -82,6 +85,7 @@
 */
 .side-nav {
     margin: 1em 0;
+    text-align: left;
 }
 .side-nav .title {
     margin: 0;
@@ -99,7 +103,7 @@
     display: block;
     margin: 0;
     padding: 0;
-    border: 1px solid $grey-2;
+    border: 1px solid $grey-1;
 }
 .side-nav ul li a {
     display: block;
@@ -119,7 +123,7 @@
     font-weight: bold;
 }
 .side-nav ul.level-0 > li > a:hover {
-    color: #4AA8FD;
+    color: $primary;
     background-color: transparent;
 }
 .side-nav ul.level-0 > li > a.active {
@@ -128,12 +132,12 @@
     border-bottom-color: $blue-2;
     box-shadow: none;
 }
+.side-nav ul.level-1 .menu-group,
 .side-nav ul.level-1 a.menu-group {
-    /*border-bottom: 1px solid #dfdfdf;*/
     font-weight: bold;
-    color: $grey-2;
+    color: $grey-3;
     text-transform: uppercase;
-    margin-top: 0.75em;
+    margin-top: 0.5em;
     margin-bottom: 0;
     padding: 0.25em 0.75em;
 }
@@ -174,6 +178,40 @@
 .side-nav li a:active,
 .side-nav li a:hover {
     background-color: $grey-light;
+}
+
+/*
+    Generic Navigation
+*/
+.sub-nav {
+    background-color: #fff;
+    top: 1em;
+    width: 100%;
+    text-align: left;
+}
+.sub-nav .pure-menu {
+    margin-bottom: 1em;
+    border: none;
+    & ul li {
+        border: none;
+    }
+    & ul li a {
+        color: $grey;
+        border: 1px solid transparent;
+        border-left: 0;
+        border-right: 0;
+        padding: 0.25em 1em;
+        text-transform: none;
+    }
+    & .current a,
+    & li a:hover {
+        background-color: $grey-light;
+    }
+}
+.sub-nav .pure-menu-heading {
+    color: $grey;
+    padding: ($spacing-unit / 8) ($spacing-unit / 2);
+    margin-bottom: 0;
 }
 
 /*

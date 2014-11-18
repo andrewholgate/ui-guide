@@ -11,9 +11,11 @@ This pattern is the single, most important way to indicate to your visitors that
 Masthead patterns will vary slightly, depending on your use case, whether the website, but generally follow the same basic style.
 
 ### Public Page
-These pages are always available to the public, therefore need to represent WFP's brand apropriately. Please, make sure you always use only the official logo, without any alterations. Check out our online [branding toolkit]({{site.baseurl}}/components/branding-toolkit/) for more information.
+These pages are always available to the public, therefore need to represent WFP's brand apropriately. Please, make sure you always use only the official logo, without any alterations.
 
 Public pages should always use a logo with a caption "World Food Programme". For smaller screens, you can serve a narrower version of the logo, with a two-line caption.
+
+If the vertical space is limited, you can substitute the logo with a "WFP.org" caption (using strictly white text `#ffffff` on a blue background `#2A93FC`), as per the official guidelines. Refer to the examples below.
 
 ###### Wide Layout
 ![Wide Layout]({{site.baseurl}}/img/pattern-masthead-public.png)
