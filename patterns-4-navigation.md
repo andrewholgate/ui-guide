@@ -48,19 +48,40 @@ This pattern is used whenever a deeper structure of links is required (no more t
 <div class="preview plain">
   <nav class="side-nav">
     <ul class="menu level-1">
-      <li class="first"><a href="/careers/onlinecv" title="Create and Edit Your CV">Create and Edit Your CV</a></li>
+      <li class="first"><a href="#">Create and Edit Your CV</a></li>
       <li class="expanded">
         <h6 class="menu-group">Vacancies</h6>
         <ul class="menu level-2">
-          <li class="first"><a href="/careers/international-professionals" title="International Professionals">International Professionals</a></li>
-          <li><a href="/careers/national-professionals" title="National Professionals">National Professionals</a></li>
-          <li><a href="/careers/general-service" title="General Service Staff">General Service Staff</a></li>
-          <li><a href="/careers/short-term-consultancies" title="Short-Term or Consultancies">Short-Term or Consultancies</a></li>
-          <li><a href="/careers/internships" title="Internships" class="active">Internships</a></li>
-          <li class="last"><a href="/careers/volunteers" title="Volunteers">Volunteers</a></li>
+          <li class="first"><a href="#">International Professionals</a></li>
+          <li><a href="#">National Professionals</a></li>
+          <li><a href="#">General Service Staff</a></li>
+          <li><a href="#">Short-Term or Consultancies</a></li>
+          <li><a href="#" class="active">Internships</a></li>
+          <li class="last"><a href="#">Volunteers</a></li>
         </ul>
       </li>
-      <li class="last"><a href="/careers/jpo" title="Junior Professional Officers">Junior Professional Officers</a></li>
+      <li class="last"><a href="#">Junior Professional Officers</a></li>
     </ul>
   </nav>
 </div>
+
+###### Markup
+{% highlight html %}
+<nav class="side-nav">
+  <ul class="menu level-1">
+    <li class="first"><a href="#">Create and Edit Your CV</a></li>
+    <li class="expanded">
+      <h6 class="menu-group">Vacancies</h6>
+      <ul class="menu level-2">
+        <li class="first"><a href="#">International Professionals</a></li>
+        <li><a href="#">National Professionals</a></li>
+        <li><a href="#">General Service Staff</a></li>
+        <li><a href="#">Short-Term or Consultancies</a></li>
+        <li><a href="#" class="active">Internships</a></li>
+        <li class="last"><a href="#">Volunteers</a></li>
+      </ul>
+    </li>
+    <li class="last"><a href="#">Junior Professional Officers</a></li>
+  </ul>
+</nav>
+{% endhighlight %}
