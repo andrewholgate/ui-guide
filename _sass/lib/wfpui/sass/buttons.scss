@@ -6,6 +6,7 @@ a.pure-button:visited {
     background-color: $grey-light;
     font-family: inherit;
     font-weight: bold;
+    line-height: 1.5;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 2px;
     -webkit-box-shadow: rgba(0,0,0,0.1) 0 1px 3px, inset rgba(255,255,255,0.2) 0 1px 3px;
@@ -110,9 +111,11 @@ a.pure-button.active:focus {
 .pure-button.xsmall {
     font-size: 0.875em;
     padding: 0.4em 0.6em;
+    line-height: 1;
 }
 .pure-button.small {
     font-size: 0.875em;
+    padding: 0.4em 0.75em;
 }
 .pure-button.large {
     font-size: 1.125em;

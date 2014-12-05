@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Fonts & Content
-permalink: /components/fonts-and-content/
+title: Content
+permalink: /components/content/
 resource: true
 categories: Components
 ---
@@ -9,42 +9,12 @@ categories: Components
 <div class="content-nav">
   <h4>Contents</h4>
   <ol>
-    <li><a href="#typekit">Typekit</a></li>
     <li><a href="#headings">Headings</a></li>
     <li><a href="#links">Links</a></li>
     <li><a href="#blockquotes">Blockquotes</a></li>
     <li><a href="#lists">Lists</a></li>
   </ol>
 </div>
-
-### Typekit
-To get Myriad Pro & Calluna, you need to load them from Typekit.
-
-Copy the code below, and paste it into the pages where the fonts will be used, just before the closing `</head>` tag of your website.
-
-{% highlight html %}
-<script type="text/javascript" src="//use.typekit.net/zqp4jvz.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-{% endhighlight %}
-
-Typekit also offers an advanced embed code, which loads the fonts asynchronously, without blocking the rendering of a given page. This code is recommended for large pages, but it also requires more development time. For details, visit [Typekit support page](http://help.typekit.com/customer/portal/articles/649336-embed-code).
-
-<div class="notice">
-  <h6>Notice</h6>
-  <p>This kit works for all hostnames under <em>*.wfp.org</em>. If you need to use Typekit on a site that is not under the <em>wfp.org</em> domain name, then send an e-mail to <a href="mailto:webmaster@wfp.org">webmaster@wfp.org</a> requesting your domain name to be added to the kit.</p>
-</div>
-
-###### Sans-serif
-{% highlight css %}
-font-family: "myriad-pro", "Myriad Pro", Helvetica, Arial, sans-serif;
-{% endhighlight %}
-
-###### Serif
-{% highlight css %}
-font-family: "calluna", "Georgia", serif;
-{% endhighlight %}
-
-However, if your web domain doesn't fall into _*.wfp.org_ wildcard, please contact WFP Communications Division, to get your domain approved for use with our official kit.
 
 ### Headings
 Headings are a useful tool to markup important sections of a given page, such as headlines, chapters, etc. Any heading elements may include links or anchors.

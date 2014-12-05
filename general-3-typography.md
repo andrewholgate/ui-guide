@@ -15,39 +15,53 @@ categories: General
   </ol>
 </div>
 
-Typography plays a critical role in a design. It adds personality to content, becomes its voice. When it's established poorly, elements become unreadable, or badly aligned, thus reducing the impact a given piece of content will have on the reader.
+Typography plays a critical role in any design. It adds personality to content, becomes its voice. When established poorly, typographic elements become unreadable, thus reducing the impact a given piece of content will have on the reader.
+
+In some cases, it will lead to problems with processing text, and thus increasing cognitive load on the user. The bigger the congnitive load is, the harder it is for the user to complete her tasks.
 
 ### Typefaces
-_Lato_ type family is our primary typeface for web presentation; a round and smooth sans-serif font with a very humanist appeal. It can be used for both, headlines and paragraphs alike, as well as for interface elements.
+__Lato__ is our primary typeface for web presentation; it's a round, humanist sans-serif, with incredibly warm appeal. It can be used for both, headlines and paragraphs alike, as well as for interface elements.
 
 <ul class="pure-g inline-grid short">
-  <li class="pure-u-1-2 pure-u-md-1-4">
+  <li class="pure-u-1-2 pure-u-md-1-6">
     <div class="inline-item type-medium sans">Aa</div>
     <div class="desc">
       <p>Regular</p>
     </div>
   </li>
-  <li class="pure-u-1-2 pure-u-md-1-4">
+  <li class="pure-u-1-2 pure-u-md-1-6">
     <div class="inline-item type-medium-i sans">Aa</div>
     <div class="desc">
-      <p>Regular Italic</p>
+      <p>Italic</p>
     </div>
   </li>
-  <li class="pure-u-1-2 pure-u-md-1-4">
-    <div class="inline-item type-semi sans">Aa</div>
+  <li class="pure-u-1-2 pure-u-md-1-6">
+    <div class="inline-item type-bold sans">Aa</div>
     <div class="desc">
-      <p>Semibold</p>
+      <p>Bold</p>
     </div>
   </li>
-  <li class="pure-u-1-2 pure-u-md-1-4">
-    <div class="inline-item type-semi-i sans">Aa</div>
+  <li class="pure-u-1-2 pure-u-md-1-6">
+    <div class="inline-item type-bold-i sans">Aa</div>
     <div class="desc">
-      <p>Semibold Italic</p>
+      <p>Bold Italic</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-6">
+    <div class="inline-item type-black-i sans">Aa</div>
+    <div class="desc">
+      <p>Black</p>
+    </div>
+  </li>
+  <li class="pure-u-1-2 pure-u-md-1-6">
+    <div class="inline-item type-black-i sans">Aa</div>
+    <div class="desc">
+      <p>Black Italic</p>
     </div>
   </li>
 </ul>
 
-_Calluna_ is a great typeface that is easy on the eye and covers a wide range of applications, from large headlines to small print type. Although it looks great in both paragraphs and headlines, it should be used sparingly where a slight emphasis is required, such as main article page titles, intros, or pull-out quotes.
+__Aleo__ was designed as a slab-serif counterpart to _Lato_. It looks great in both, paragraphs and headlines, although it should be used sparingly where a slight emphasis is required, such as main article intros or pull-out quotes.
 
 <ul class="pure-g inline-grid short">
   <li class="pure-u-1-2 pure-u-md-1-4">
@@ -59,22 +73,24 @@ _Calluna_ is a great typeface that is easy on the eye and covers a wide range of
   <li class="pure-u-1-2 pure-u-md-1-4">
     <div class="inline-item type-medium-i serif">Aa</div>
     <div class="desc">
-      <p>Regular Italic</p>
+      <p>Italic</p>
     </div>
   </li>
   <li class="pure-u-1-2 pure-u-md-1-4">
-    <div class="inline-item type-semi serif">Aa</div>
+    <div class="inline-item type-bold serif">Aa</div>
     <div class="desc">
-      <p>Semibold</p>
+      <p>Bold</p>
     </div>
   </li>
   <li class="pure-u-1-2 pure-u-md-1-4">
-    <div class="inline-item type-semi-i serif">Aa</div>
+    <div class="inline-item type-bold-i serif">Aa</div>
     <div class="desc">
-      <p>Semibold Italic</p>
+      <p>Bold Italic</p>
     </div>
   </li>
 </ul>
+
+![Typography]({{ site.baseurl }}/img/typography.png)
 
 ### Sizing
 The size of your text is as important for your message, as your WFP colours are to its branding. When the type is too small or too large, it becomes illegible, thus increasing the strain on the reader's eyes, making reading uncomfortable.
@@ -91,7 +107,7 @@ To make your text legible and readable follow the guidelines below to setting yo
     </ul>
   </li>
   <li class="pure-u-1 pure-u-md-1-2 block">
-    <h6>Serif</h6>
+    <h6>Slab-serif</h6>
     <ul>
       <li>Base font-size: <b>16px</b>;</li>
       <li>Minimum font-size: <b>14px</b>;</li>

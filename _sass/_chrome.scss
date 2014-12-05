@@ -5,6 +5,9 @@
     position: fixed;
     max-width: 226px;
 }
+.sub-nav .pure-menu ul li {
+    margin: 0
+}
 
 .content-nav {
     width: 100%;
@@ -145,6 +148,8 @@
 .type-semi-i {font-weight: 600; font-style: italic;}
 .type-bold {font-weight: 700;}
 .type-bold-i {font-weight: 700; font-style: italic;}
+.type-black {font-weight: 900;}
+.type-black-i {font-weight: 900; font-style: italic;}
 
 .type-sizes {
     margin: 2em 0;

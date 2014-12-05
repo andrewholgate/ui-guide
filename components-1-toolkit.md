@@ -8,13 +8,31 @@ categories: Components
 
 Making sure your pages adhere to WFP UI Guidelines, we have prepared a set of tools and snippets, to help you kickstart your projects.
 
+### Fonts
+To use our recommended fonts, you need to load them first from our Content Delivery Network (CDN).
+
+{% highlight html %}
+<link rel="stylesheet" href="http://cdn.wfp.org/libraries/webfonts/lato/lato.css">
+<link rel="stylesheet" href="http://cdn.wfp.org/libraries/webfonts/aleo/aleo.css">
+{% endhighlight %}
+
+###### Sans-serif
+{% highlight css %}
+font-family: "lato", sans-serif;
+{% endhighlight %}
+
+###### Slab-serif
+{% highlight css %}
+font-family: "aleo", serif;
+{% endhighlight %}
+
 ### CSS Toolkit
 To make sure your designs follow our guidelines with ease, we've created a dedicated CSS Toolkit, which you can reference in your web pages and applications. You can also [download]({{site.baseurl}}/assets/css-lib-0.1.0.zip) and use it locally, if your site is note able to access the Internet.
 
 {% highlight html %}
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-<link rel="stylesheet" href="http://cdn.wfp.org/brand/ui/css/main.css">
+<link rel="stylesheet" href="http://cdn.wfp.org/libraries/wfpui/main.css">
 {% endhighlight %}
 
 <div class="preview plain">
