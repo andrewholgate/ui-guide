@@ -31,7 +31,12 @@ To make sure your designs follow our guidelines with ease, we've created a dedic
 
 {% highlight html %}
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<!--<![endif]-->
 <link rel="stylesheet" href="http://cdn.wfp.org/libraries/wfpui/main.css">
 {% endhighlight %}
 
