@@ -44,7 +44,6 @@
 .inline-grid {
     padding: 0;
     list-style: none;
-    display: block;
     width: 100%;
 }
 .inline-grid > li {
@@ -87,12 +86,6 @@
         margin-bottom: 0;
     }
 }
-.inline-grid.icons li {
-    height: 160px;
-    position: relative;
-}
-.inline-grid.icons .inline-item {height: 96px;}
-.inline-grid.icons .inline-item img {max-width: 80%; vertical-align: top;}
 
 .inline-grid .inline-item.c-primary {background-color: $primary;}
 .inline-grid .inline-item.c-secondary {background-color: $secondary;}
@@ -116,23 +109,59 @@
 .inline-grid .inline-item.c-green {background-color: $green;}
 
 .inline-grid .desc {
-    padding: 0.75em 0;
-    > h4, p {
-        font-size: 0.875em;
-        margin: 0;
-        color: #838485;
-        line-height: 1;
-        text-transform: uppercase;
-    }
-    > h4 {
-        font-weight: bold;
-    }
+  padding: 0.75em 0;
+  > h4, p {
+    font-size: 0.875em;
+    margin: 0;
+    color: #838485;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  > h4 {
+    font-weight: bold;
+  }
 }
-.inline-grid.icons .desc {
-    padding: 0.5em 0;
-    > p {
-        line-height: 1.35em; text-transform: capitalize;
+.inline-grid.icons {
+  position: relative;
+  > li {
+    position: relative;
+    overflow: visible;
+    margin: 0;
+    .desc {
+      height: auto;
+      padding: 1em;
+      line-height: 1em;
+      font-size: 1em;
+      cursor: pointer;
+      border-bottom: none;
+      border-top: 2px solid $grey-light;
+      &.exposed {
+        border-top: 2px solid $primary;
+        position: absolute;
+        background-color: $grey-light;
+        width: 176px;
+        top: 0;
+        left: 0;
+        padding: 1em;
+        z-index: 1000;
+        text-align: left;
+      }
+      img {
+        width: 100%;
+        max-width: 64px;
+        margin-bottom: 1em;
+      }
+      > p {
+        line-height: 1;
+        text-transform: lowercase;
+        margin-bottom: 0
+      }
     }
+  }
+}
+
+.list-view {
+
 }
 
 /**

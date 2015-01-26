@@ -238,7 +238,7 @@
     border-left: none;
     position: relative;
     z-index: 1;
-    max-height: 24px;
+    line-height: 2em;
     font-size: 0.875em;
 }
 .edit-menu .tabs li.active {
@@ -252,7 +252,7 @@
     border-radius: 0 2px 2px 0;
 }
 .edit-menu .tabs li a {
-    padding: 0.35em 0.75em;
+    padding: 0.4em 0.8em;
     width: auto;
     border: none;
     color: #898989;

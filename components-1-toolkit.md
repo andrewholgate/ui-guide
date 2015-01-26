@@ -9,7 +9,7 @@ categories: Components
 Making sure your pages adhere to WFP UI Guidelines, we have prepared a set of tools and snippets, to help you kickstart your projects.
 
 ### Fonts
-To use our recommended fonts, you need to load them first from our Content Delivery Network (CDN).
+To use our recommended fonts, you need to load them first from our Content Delivery Network.
 
 {% highlight html %}
 <link rel="stylesheet" href="http://cdn.wfp.org/libraries/webfonts/lato/lato.css">

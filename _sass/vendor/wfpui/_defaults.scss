@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 html,
 button,
 input,
@@ -91,10 +95,11 @@ body {
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: 1em;
-    &:last-child {
-        margin-bottom: 0;
-    }
+    margin: 1em 0;
+}
+
+li {
+    margin: 0.25em 0;
 }
 
 
@@ -152,15 +157,15 @@ menu, ol, ul {
 a {
     color: $primary;
     text-decoration: none;
-    border-bottom: 1px solid $grey-light;
+    border-bottom: 1px solid lighten($grey, 60%);
 
     &:visited {
-        color: darken($blue-2, 15%);
+        color: $primary;//darken($secondary, 15%);
     }
 
     &:hover {
         color: $primary;
-        border-bottom-color: $yellow;
+        border-bottom-color: $orange;
     }
 }
 
@@ -186,7 +191,8 @@ blockquote {
  */
 pre,
 code {
-    font-size: $base-font-size * 0.750;
+    font-size: $base-font-size * 0.875;
+    font-style: normal;
     font-family: $mono-stack;
     background-color: $grey-lighter;
     border-radius: 2px;
@@ -197,7 +203,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
-    border-left: 6px solid $blue-1;
+    border-left: 6px solid $blue-2;
     word-wrap: normal;
     > code {
         border: 0;
@@ -232,4 +238,20 @@ pre {
         display: table;
         clear: both;
     }
+}
+
+
+/**
+ * Text Manipulation
+ */
+.text {
+    &-left {text-align: left;}
+    &-center {text-align: center;}
+    &-right {text-align: right;}
+}
+.caps {
+    text-transform: capitalize;
+}
+.all-caps {
+    text-transform: uppercase;
 }

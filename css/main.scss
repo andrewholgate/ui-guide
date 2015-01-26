@@ -5,14 +5,11 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+  "vendor/wfpui/wfpui",
   "vars",
-  "lib/wfpui/sass/navigation",
-  "lib/wfpui/sass/forms",
-  "lib/wfpui/sass/buttons",
-  "lib/wfpui/sass/masthead",
-  "lib/wfpui/sass/footer",
-  "base",
+  "mixins",
+  "syntax-highlighting",
   "layout",
   "chrome",
-  "syntax-highlighting"
+  "print"
 ;
