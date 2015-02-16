@@ -23,40 +23,42 @@ If the vertical space is limited, you can substitute the logo with a "WFP.org" c
 ###### Sample Markup
 {% highlight html %}
 <!-- Masthead -->
-<header class="pure-g wrapper masthead">
-  <div class="pure-u-2-3 pure-u-sm-1-3">
-    <h1 class="wfp-logo">
-      <a href="#" class="wfp-logo-img"><img src="{{site.baseurl}}/img/logos/wfp_logo_full@256w.png" class="logo-dark" alt="UN World Food Programme"></a>
-    </h1>
-  </div>
-  <div class="pure-u-1-3 pure-u-sm-2-3">
-    <div class="additional">
-      <nav class="component header-lang">
+<header class="masthead-full">
+  <div class="pure-g wrapper">
+    <div class="pure-u-2-3 pure-u-sm-1-3">
+      <h1 class="wfp-logo">
+        <a href="#" class="wfp-logo-img"><img src="{{site.baseurl}}/img/logos/wfp_logo_full@256w.png" class="logo-dark" alt="UN World Food Programme"></a>
+      </h1>
+    </div>
+    <div class="pure-u-1-3 pure-u-sm-2-3">
+      <div class="additional">
+        <nav class="component header-lang">
+          <ul>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">العربية</a></li>
+          </ul>
+        </nav>
+        <div class="component header-cta">
+          <a href="#" class="pure-button small">DONATE</a>
+        </div>
+        <div class="component header-search">
+          <form class="pure-form">
+            <input type="search" class="input-search" name="search_theme_form" id="search-form-input" placeholder="Search...">
+            <button class="pure-button search small transparent"><i class="ss-icon">search</i></button>
+          </form>
+        </div>
+      </div>
+      <nav class="main-nav">
         <ul>
-          <li><a href="#">Français</a></li>
-          <li><a href="#">Español</a></li>
-          <li><a href="#">العربية</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms Of Use</a></li>
         </ul>
       </nav>
-      <div class="component header-cta">
-        <a href="#" class="pure-button small">DONATE</a>
-      </div>
-      <div class="component header-search">
-        <form class="pure-form">
-          <input type="search" class="input-search" name="search_theme_form" id="search-form-input" placeholder="Search...">
-          <button class="pure-button search small transparent"><i class="ss-icon">search</i></button>
-        </form>
-      </div>
     </div>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms Of Use</a></li>
-      </ul>
-    </nav>
   </div>
 </header>
 {% endhighlight %}
@@ -69,7 +71,7 @@ If the vertical space is limited, you can substitute the logo with a "WFP.org" c
 
 {% highlight html %}
 <!-- Internal Masthead -->
-<header class="masthead narrow">
+<header class="masthead-narrow">
   <div class="pure-g wrapper">
     <div class="pure-u-2-3 pure-u-md-1-4 logo-container">
       <h1 class="logo">

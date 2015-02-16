@@ -6,6 +6,12 @@ resource: true
 categories: Info
 ---
 
+### v0.3.2 (04/02/2014)
+- Updated _Masthead_ section with backwards-incompatible changes.
+- [-] Inlined SCSS sources. They are being moved to a separate repository.
+- [+] Local copy of PureCSS v0.5.0 due to Yahoo CDN problems with serving the library over HTTPS.
+- [+] Pagination pattern.
+
 ### v0.3.1 (04/12/2014)
 - Replaced _Myriad Pro_ with _Lato_.
 - Replaced _Calluna_ with _Aleo_.
