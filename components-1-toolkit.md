@@ -30,14 +30,14 @@ font-family: "aleo", serif;
 To make sure your designs follow our guidelines with ease, we've created a dedicated CSS Toolkit, which you can reference in your web pages and applications. You can also [download]({{site.baseurl}}/assets/css-lib-0.1.0.zip) and use it locally, if your site is note able to access the Internet.
 
 {% highlight html %}
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<link href="http://cdn.wfp.org/libraries/wfpui/master/pure/pure-min.css" rel="stylesheet">
 <!--[if lte IE 8]>
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<link href="http://cdn.wfp.org/libraries/wfpui/master/pure/grids-responsive-old-ie-min.css" rel="stylesheet">
 <![endif]-->
 <!--[if gt IE 8]><!-->
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<link href="http://cdn.wfp.org/libraries/wfpui/master/pure/grids-responsive-min.css" rel="stylesheet">
 <!--<![endif]-->
-<link rel="stylesheet" href="http://cdn.wfp.org/libraries/wfpui/main.css">
+<link href="http://cdn.wfp.org/libraries/wfpui/master/wfpui.min.css" rel="stylesheet">
 {% endhighlight %}
 
 <div class="preview plain">
