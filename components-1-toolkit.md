@@ -26,8 +26,10 @@ font-family: "lato", sans-serif;
 font-family: "aleo", serif;
 {% endhighlight %}
 
-### CSS Toolkit
-To make sure your designs follow our guidelines with ease, we've created a dedicated CSS Toolkit, which you can reference in your web pages and applications. You can also [download]({{site.baseurl}}/assets/css-lib-0.1.0.zip) and use it locally, if your site is note able to access the Internet.
+### CSS/SCSS Toolkit
+To make sure your designs follow our guidelines with ease, we've created a dedicated CSS Toolkit, which you can reference in your web pages and applications. You can also download and use it locally, if your site is note able to access the Internet.
+
+If you are working with SCSS, the toolkit you can download below contains everything you need in both CSS and SCSS formats, with the most important variables, mixins and defaults (such as media queries or colour definitions), which you can use for your themes and websites.
 
 {% highlight html %}
 <link href="http://cdn.wfp.org/libraries/wfpui/master/pure/pure-min.css" rel="stylesheet">
@@ -42,16 +44,7 @@ To make sure your designs follow our guidelines with ease, we've created a dedic
 
 <div class="preview plain">
   <p>
-    <a class="pure-button" href="{{ site.baseurl }}/assets/css-lib-0.1.0.zip" download>WFP UI CSS (ZIP, ~22 KB)</a>
-  </p>
-</div>
-
-### SASS Toolkit
-If you are working with SASS, we have prepared a small toolkit in SCSS format with the most important variables and mixins (such as media queries or colour definitions), which you can use in your themes and websites.
-
-<div class="preview plain">
-  <p>
-    <a class="pure-button" href="{{ site.baseurl }}/assets/vars.scss" download>WFP UI SASS (SCSS, ~2 KB)</a>
+    <a class="pure-button" href="http://cdn.wfp.org/libraries/wfpui/wfp-ui-kit-master.zip" download>WFP UI Kit (ZIP)</a>
   </p>
 </div>
 
