@@ -5,7 +5,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "wfpui-scss/wfpui",
+  "vendor/wfpui-scss/init",
   "vars",
   "mixins",
   "syntax-highlighting",
