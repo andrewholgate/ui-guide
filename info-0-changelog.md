@@ -1,32 +1,30 @@
 ---
 layout: page
 title: Changelog
-permalink: /info/changelog/
+permalink: /about/changelog/
 resource: true
-categories: Info
+categories: About
 ---
 
-### v0.3.2 (04/02/2014)
-- Updated _Masthead_ section with backwards-incompatible changes.
-- [-] Inlined SCSS sources. They are being moved to a separate repository.
-- [+] Local copy of PureCSS v0.5.0 due to Yahoo CDN problems with serving the library over HTTPS.
-- [+] Pagination pattern.
-
-### v0.3.1 (04/12/2014)
-- Replaced _Myriad Pro_ with _Lato_.
-- Replaced _Calluna_ with _Aleo_.
-- Updated _Typography_ section.
-- Replaced Typekit with web fonts served from our own CDN.
-- Updated font stacks and CSS declarations for handling new web fonts.
-- Updated _WFPUI Kit_ to the latest version.
+### v0.4.0 (13/04/2015)
+- _WFP UI Guide_ now works on all screen-sizes.
+- Improved navigation and restructured some categories.
+- Updated: [WFP UI Kit]({{ site.baseurl}}/resources/scss-ui-kit/) to `v1.1.1`.
+- New resource: [OCHA Icons]({{ site.baseurl }}/resources/ocha-icons/).
+- New resource: [UI Icons]({{ site.baseurl }}/resources/ui-icons/).
 
 ### v0.3.0 (12/11/2014)
 - Replaced Hammer templates with a new Jekyll-based build.
 - Restructured the whole guide, improved navigation.
 - Revamped colour palette for the entire WFP UI Guide.
 - Fixed intro text [#8], added a notice about UI customisation [#12].
-- [+] Masthead pattern.
-- [+] v0.1.0 of a CSS Toolkit for download.
+- Replaced _Myriad Pro_ with _Lato_.
+- Replaced _Calluna_ with _Aleo_.
+- Updated _Typography_ section.
+- Replaced Typekit with web fonts served from our own CDN.
+- Updated font stacks and CSS declarations for handling new web fonts.
+- New pattern: [Masthead]({{ site.baseurl }}/patterns/masthead/).
+- New pattern: [Pagination]({{ site.baseurl }}/patterns/navigation/#pagination).
 
 ### v0.1.4 (06/08/2014)
 - Removed local downloads.
