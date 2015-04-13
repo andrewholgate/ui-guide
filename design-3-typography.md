@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Typography
-permalink: /general/typography/
+permalink: /design/typography/
 resource: true
-categories: General
+categories: Design
 ---
 
 <div class="content-nav">

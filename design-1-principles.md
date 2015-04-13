@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Design Principles
-permalink: /general/design-principles/
+title: Essentials
+permalink: /design/design-principles/
 resource: true
-categories: General
+categories: Design
 ---
 
 To create a great content page you have to keep a few things in mind. Those things are: *hierarchy*, *alignment* and *simplicity*. It's easy to do if you adhere to the following guidelines:

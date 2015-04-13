@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Colours
-permalink: /general/colours/
+permalink: /design/colours/
 resource: true
-categories: General
+categories: Design
 ---
 
 ### Primary Colours

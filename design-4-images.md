@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Images
-permalink: /general/images/
+permalink: /design/images/
 resource: true
-categories: General
+categories: Design
 ---
 
 Imagery is a core aspect of WFP’s online presence. To maximise the impact on our visitors we need both: a powerful photographs and great visual presentation.
