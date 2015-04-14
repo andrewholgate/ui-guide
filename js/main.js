@@ -9,6 +9,8 @@ $(document).ready(function(){
   });
 
   $('#js-view-grid').click(function(e){
+    e.preventDefault();
+
     var $view = $('#js-view'),
         $items = $('.item', $view),
         $tabs = $('a', '.tabs')
@@ -20,6 +22,8 @@ $(document).ready(function(){
   })
 
   $('#js-view-list').click(function(e){
+    e.preventDefault();
+
     var $view = $('#js-view'),
         $items = $('.item', $view),
         $tabs = $('a', '.tabs')
