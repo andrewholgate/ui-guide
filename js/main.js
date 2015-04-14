@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+  //  Instantiate FastClick
+  $(function() { FastClick.attach(document.body); });
+
   $('#js-nav-trigger').click(function(e){
     var $menu = $('#js-main-nav');
     $menu.toggleClass('open');
