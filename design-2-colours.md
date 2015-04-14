@@ -7,7 +7,7 @@ categories: Design
 ---
 
 ### Primary Colours
-The following palette is compprised of basic colours for everyday use. The primary blue is an enhanced version of the corporate _WFP Blue_, designed to work well in digital colour space (RGB).
+The following palette is comprised of basic colours for everyday use. The primary blue is an enhanced version of the corporate _WFP Blue_, designed to work well in digital colour space (RGB).
 
 <ul class="pure-g inline-grid colours">
   <li class="pure-u-1-2 pure-u-md-1-4">

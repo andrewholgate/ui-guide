@@ -6,7 +6,7 @@ resource: true
 categories: Design
 ---
 
-To create a great content page you have to keep a few things in mind. Those things are: *hierarchy*, *alignment* and *simplicity*. It's easy to do if you adhere to the following guidelines:
+To create a great User Interface you have to keep a few things in mind. Those things are: *hierarchy*, *alignment* and *simplicity*. It's easy to do if you adhere to the following guidelines:
 
 - **Content comes first.** Before you start composing the layout of your page, please make sure you have your content ready. Keep everything simple and neutral, to let the content stand out on its own.
 - **Provide context.** When creating a landing page, you need context that would back up the content and make it more prominent. This will help focus user's attention on that particular section, whether it's a title or an image, or maybe something else you have in mind.
