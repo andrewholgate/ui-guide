@@ -6,9 +6,11 @@ resource: true
 categories: Resources
 ---
 
-The Office for the Coordination of Humanitarian Affairs (OCHA) has established icons to represent humanitarian assistance and to ensure consistency in use, these have been shared widely with UN agencies and NGOs. On this section we have listed those OCHA icons that WFP uses most frequently in addition to a few WFP-specific ones.
+User Interface Icons should be used to strenghten visual cues; use them wisely and do not overload the interface with icons.
 
-Each icon is available in either a positive (transparent) or a negative (solid) background, to suit your needs. You can download the whole icon set in a PNG format or the EPS source file below:
+Usually an icon should be shown accompanied by a corresponding text label, for the benefit of users who are unfamiliar with the icon.
+
+Each icon is available in either a positive (transparent) or a negative (solid) background, to suit your needs. You can download the whole UI icon set in a PNG format or the EPS source from the links at the bottom of the page.
 
 <div class="pure-g">
   <div class="pure-u-3-4"></div>
