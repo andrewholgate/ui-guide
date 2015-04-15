@@ -11,24 +11,23 @@ This pattern is the single, most important way to indicate to your visitors that
 Masthead patterns will vary slightly, depending on your use case, whether the website, but generally follow the same basic style.
 
 ### Public Page
-These pages are always available to the public, therefore need to represent WFP's brand apropriately. Please, make sure you always use only the official logo, without any alterations. Check out our online [branding toolkit]({{site.url}}/components/branding-toolkit/) for more information.
+These pages are always available to the public, therefore need to represent WFP's brand apropriately. Please, make sure you always use only the official logo, without any alterations.
 
 Public pages should always use a logo with a caption "World Food Programme". For smaller screens, you can serve a narrower version of the logo, with a two-line caption.
 
-###### Wide Layout
-![Wide Layout]({{site.url}}/img/pattern-masthead-public.png)
+If the vertical space is limited, you can substitute the logo with a "WFP.org" caption (using strictly white text `#ffffff` on a blue background `#2A93FC`), as per the official guidelines. Refer to the examples below.
 
-###### Small-screen Layout
-![Small-screen Layout]({{site.url}}/img/pattern-masthead-public-small.png)
+###### Wide Layout
+![Wide Layout]({{site.baseurl}}/img/pattern-masthead-public.png)
 
 ###### Sample Markup
 {% highlight html %}
 <!-- Masthead -->
-<header class="masthead">
+<header class="masthead-full">
   <div class="pure-g wrapper">
     <div class="pure-u-2-3 pure-u-sm-1-3">
       <h1 class="wfp-logo">
-        <a href="/en/my/" class="wfp-logo-img"><img src="/sites/all/themes/my_wfp_org/img/logos/logo@256w.png" class="logo-dark" alt="UN World Food Programme"></a>
+        <a href="#" class="wfp-logo-img"><img src="{{site.baseurl}}/img/logos/wfp_logo_full@256w.png" class="logo-dark" alt="UN World Food Programme"></a>
       </h1>
     </div>
     <div class="pure-u-1-3 pure-u-sm-2-3">
@@ -41,7 +40,7 @@ Public pages should always use a logo with a caption "World Food Programme". For
           </ul>
         </nav>
         <div class="component header-cta">
-          <a href="/en/account" class="pure-button small">Sign In</a>
+          <a href="#" class="pure-button small">DONATE</a>
         </div>
         <div class="component header-search">
           <form class="pure-form">
@@ -64,23 +63,34 @@ Public pages should always use a logo with a caption "World Food Programme". For
 </header>
 {% endhighlight %}
 
-###### Sample CSS
-{% highlight css %}
-.masthead {
-  background-color: #4AA8FD;
-  border-bottom: 3px solid #4295E0;
-  color: #ffffff;
-  box-shadow: rgba(0,0,0,0.2) 0 1px 3px;
-  max-height: 82px;
-}
-.masthead .wfp-logo {
-  margin: 0.3em 0;
-  display: inline-block;
-}
-.masthead .wfp-logo a {
-  border: none;
-}
-{% endhighlight %}
+###### Small-screen Layout
+![Small-screen Layout]({{site.baseurl}}/img/pattern-masthead-public-small.png)
 
 ###### Internal Layout
-![Internal Layout]({{site.url}}/img/pattern-masthead-internal.png)
+![Internal Layout]({{site.baseurl}}/img/pattern-masthead-internal-narrow.png)
+
+{% highlight html %}
+<!-- Internal Masthead -->
+<header class="masthead-narrow">
+  <div class="pure-g wrapper">
+    <div class="pure-u-2-3 pure-u-md-1-4 logo-container">
+      <h1 class="logo">
+        <a href="#">IT Communities</a>
+      </h1>
+    </div>
+    <div class="pure-u-1-3 pure-u-md-3-4 navigation">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#" class="active">Regions</a></li>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Learning</a></li>
+          <li><a href="#">That Is IT</a></li>
+          <li><a href="#" class="pure-button small">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+{% endhighlight %}

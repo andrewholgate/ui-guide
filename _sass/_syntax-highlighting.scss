@@ -5,7 +5,7 @@
     background: #fff;
     @extend %vertical-rhythm;
 
-    .c     { color: slategray; font-style: italic } // Comment
+    .c     { color: slategray; } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
     .k     { color: #07a; font-weight: bold } // Keyword
     .o     { color: #a67f59; font-weight: bold } // Operator

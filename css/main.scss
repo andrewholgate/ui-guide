@@ -3,16 +3,10 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  "vars",
-  "lib/wfpui/sass/navigation",
-  "lib/wfpui/sass/forms",
-  "lib/wfpui/sass/buttons",
-  "lib/wfpui/sass/masthead",
-  "lib/wfpui/sass/footer",
-  "base",
-  "layout",
-  "chrome",
-  "syntax-highlighting"
-;
+@import "vendor/wfp-ui-kit/wfpui";
+@import "vars";
+@import "mixins";
+@import "syntax-highlighting";
+@import "layout";
+@import "chrome";
+@import "print";

@@ -1,9 +1,11 @@
 # Site settings
-title: WFP UI Guide
-email: ""
+title: "WFP UI Guide"
+email: "me@matthewmorek.com"
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/brand/ui" # WFP CDN
+url: "https://cdn.wfp.org/" # WFP CDN
+
+exclude: ["*.sublime-*", "*.sh", "*.yml", "*.DS_*"]
 
 # Build settings
 markdown: kramdown
@@ -12,7 +14,7 @@ highlighter: pygments
 kramdown:
   input: GFM
 
-category-list: [General, Components, Patterns]
+category-list: [Design, Components, Patterns, Resources, About]
 
 # Defaults
 defaults:

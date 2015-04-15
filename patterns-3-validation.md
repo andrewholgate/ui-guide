@@ -29,7 +29,10 @@ By default, WFP recommends a [jQuery Validation Plugin](http://jqueryvalidation.
 
 To properly mark up your forms, follow the examples below. Make sure to load `forms.css` stylesheet to have all required styles applied to your forms automatically.
 
-You are free to use your own validator script, as long as the validation can be done according to our general guidelines and uses the UI styles showcased below.
+<div class="notice">
+  <h6 class="title">NOTE</h6>
+  <p>You are free to use your own validator script as long as the validation can be done according to the general guidelines and uses the UI styles showcased below.</p>
+</div>
 
 Generally all types of fields can follow the same patterns. If you have a very specific case where it would be difficult to apply them, you can use a custom one, as long at it follows general visual guidelines set in the examples below (colours and display).
 
