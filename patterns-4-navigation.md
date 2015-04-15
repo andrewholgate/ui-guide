@@ -9,7 +9,7 @@ categories: Patterns
 This is one of the most important patterns for all websites and applications. Without great navigation the content cannot be discovered by the user. Using our CSS Toolkit, you will have access to several navigation patterns.
 
 ### Generic List
-This list can be used for groups of links related to the same topic, for example news or file downloads. This is exactly the same pattern that is used for our sidebar navigation on the left.
+This list can be used for groups of links related to the same topic, for example news or file downloads. This is exactly the same pattern that is used for this Guide's sidebar navigation on the left.
 
 ###### Preview
 <div class="preview plain">
@@ -84,33 +84,4 @@ This pattern is used whenever a deeper structure of links is required (no more t
     <li class="last"><a href="#">Junior Professional Officers</a></li>
   </ul>
 </nav>
-{% endhighlight %}
-
-### Pagination
-A very useful pattern that allows users to browse through available content, when it's grouped into manageble chunks: pages. You can use any size available for the buttons.
-
-###### Preview
-<div class="preview-plain">
-  <div class="pagination">
-    <ol class="pagination-wrapper">
-      <li class="item"><a href="#" class="pure-button xsmall">Previous</a></li>
-      <li class="item current"><span class="pure-button transparent xsmall">1</span></li>
-      <li class="item"><a href="#" class="pure-button xsmall">2</a></li>
-      <li class="item"><a href="#" class="pure-button xsmall">3</a></li>
-      <li class="item"><a href="#" class="pure-button xsmall">Next</a></li>
-    </ol>
-  </div>
-</div>
-
-###### Markup
-{% highlight html %}
-<div class="pagination">
-  <ol class="pagination-wrapper">
-    <li class="item"><a href="#" class="pure-button xsmall">Previous</a></li>
-    <li class="item current"><span class="pure-button transparent xsmall">1</span></li>
-    <li class="item"><a href="#" class="pure-button xsmall">2</a></li>
-    <li class="item"><a href="#" class="pure-button xsmall">3</a></li>
-    <li class="item"><a href="#" class="pure-button xsmall">Next</a></li>
-  </ol>
-</div>
 {% endhighlight %}

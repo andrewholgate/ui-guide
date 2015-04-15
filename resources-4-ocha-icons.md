@@ -1,6 +1,6 @@
 ---
 layout: page
-title: OCHA Icons
+title: OCHA icons
 permalink: /resources/ocha-icons/
 resource: true
 categories: Resources

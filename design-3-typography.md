@@ -20,7 +20,7 @@ Typography plays a critical role in any design. It adds personality to content, 
 In some cases, it will lead to problems with processing text, and thus increasing cognitive load on the user. The bigger the congnitive load is, the harder it is for the user to complete her tasks.
 
 ### Typefaces
-__Lato__ is our primary typeface for web presentation; it's a round, humanist sans-serif, with incredibly warm appeal. It can be used for both, headlines and paragraphs alike, as well as for interface elements.
+__Lato__ is the primary typeface for user interfaces; it's a round, humanist sans-serif, with incredibly warm appeal. It can be used for both headlines and paragraphs alike, as well as for interface elements.
 
 <ul class="pure-g inline-grid short">
   <li class="pure-u-1-2 pure-u-md-1-6">
@@ -61,7 +61,7 @@ __Lato__ is our primary typeface for web presentation; it's a round, humanist sa
   </li>
 </ul>
 
-__Aleo__ was designed as a slab-serif counterpart to _Lato_. It looks great in both, paragraphs and headlines, although it should be used sparingly where a slight emphasis is required, such as main article intros or pull-out quotes.
+__Aleo__ was designed as a slab-serif counterpart to _Lato_. It looks great in both paragraphs and headlines, although it should be used sparingly where a slight emphasis is required, such as main article intros or pull-out quotes.
 
 <ul class="pure-g inline-grid short">
   <li class="pure-u-1-2 pure-u-md-1-4">
@@ -89,6 +89,8 @@ __Aleo__ was designed as a slab-serif counterpart to _Lato_. It looks great in b
     </div>
   </li>
 </ul>
+
+### Example
 
 ![Typography]({{ site.baseurl }}/img/typography.png)
 
@@ -119,11 +121,11 @@ To make your text legible and readable follow the guidelines below to setting yo
 ###### Example Sizes
 
 - 14px—an absolute minimum, used only for small interface elements, or small print (notices, image descriptions); not intended for main body text;
-- 16px—our base font size, used for majority of things, from body text, to interface elements; it's a minimum recommended size for body text;
+- 16px—the base font size, used for majority of things, from body text, to interface elements; it's a minimum recommended size for body text;
 - 14–32px—a range of sizes covering headings, from the smallest, to the largest; these should always be displayed in bold.
 
 ### Dos and Don'ts
 - Don't try to mix two typefaces within a single section, such as a paragraph or a heading. If you need to differentiate a piece of text, use _stressed emphasis_ or __strong importance__.
 - Don't try to mix different sizes of text within a single section or use editing tools to apply styling or colour to the text manually. Underlines are allowed only on links, but they belong to a different set of styles, separated from the above guidelines.
-- Always keep the colour contrast in mind. Your copy should be readable and easy on the eye. Try to avoid plain white or black colours to style text and/or background. Our basic body text colour is `#303132` and we use `#ffffff` for the background.
+- Always keep the colour contrast in mind. Your copy should be readable and easy on the eye. Try to avoid plain white or black colours to style text and/or background. The basic body text colour is `#303132`; `#ffffff` is used for the background.
 - Always keep your content plain and simple. Don't add unnecessary formatting where it's not required and leave styling of the content to your desiger. This will ensure all of it looks consistent.

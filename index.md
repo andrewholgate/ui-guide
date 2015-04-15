@@ -9,7 +9,7 @@ Building on this initiative, the World Food Programme’s _User Interface Style 
 
 Defined to help create, in an easy way, consistent and attractive user interfaces for WFP's properties, the guidelines contained in this guide are to be applied to all WFP digital products (such as: websites, web applications, internal systems and other).
 
-The Guide is a living document; it is updated based on the needs and requirements of WFP's front-end developers and designers. If there is a _Component_ or _Pattern_ that you need, or you have any other feedback, question or comment please contact us via [wfp.publications@wfp.org](mailto:WFP.PUBLICATIONS@wfp.org?subject=UI%20Style%20Guide).
+The Guide is a living document created to meet the needs of WFP's front-end developers and designers. If there is a _Component_ or _Pattern_ that you need, or you have any other feedback, question or comment please contact us via [wfp.publications@wfp.org](mailto:WFP.PUBLICATIONS@wfp.org?subject=UI%20Style%20Guide).
 
 <div class="notice">
   <h6 class="title">NOTE</h6>
