@@ -10,10 +10,10 @@ User Interface Icons should be used to strenghten visual cues; use them wisely a
 
 Usually an icon should be shown accompanied by a corresponding text label, for the benefit of users who are unfamiliar with the icon.
 
-Each icon is available in either a positive (transparent) or a negative (solid) background, to suit your needs. You can download the whole UI icon set in a PNG format or the EPS source from the links at the bottom of the page.
+Each icon is available in either a positive (transparent) or a negative (solid) background, to suit your needs. You can download the whole UI icon set in a PNG or SVG format using links at the bottom of the page.
 
 <div class="notice">
-  <p>Need a User Interface icon not listed here? Send us a request via [wfp.publications@wfp.org](mailto:WFP.PUBLICATIONS@wfp.org?subject=UI%20icon%20request).</p>
+  <p>Need a User Interface icon not listed here? Send us a request via <a href="mailto:WFP.PUBLICATIONS@wfp.org?subject=UI%20icon%20request">wfp.publications@wfp.org</a>.</p>
 </div>
 
 <div class="pure-g">
