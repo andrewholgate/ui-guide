@@ -37,5 +37,5 @@ Breadcrumbs should be displayed just below the masthead, possibly on their own, 
 
 <div class="notice">
   <h6 class="title">TIP</h6>
-  <p>The <code>home</code> User Interface icon is used by the Breacrumbs. See the [User Interface icons]({{site.baseurl}}/resources/ui-icons/) page.</p>
+  <p>Breacrumbs use the <code>home</code> icon from the WFP UI icon set. See the <a href="{{site.baseurl}}/resources/ui-icons/">User Interface icons</a> page for more information.</p>
 </div>
