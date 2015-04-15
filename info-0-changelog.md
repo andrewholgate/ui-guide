@@ -6,12 +6,13 @@ resource: true
 categories: About
 ---
 
-### v0.4.0 (13/04/2015)
-- _WFP UI Guide_ now works on all screen-sizes.
+### v0.4.0 (15/04/2015)
+- _WFP UI Guide_ now works on all screen-sizes, as well as in IE8.
 - Improved navigation and restructured some categories.
 - Updated: [WFP UI Kit]({{ site.baseurl}}/resources/scss-ui-kit/) to `v1.1.1`.
 - New resource: [OCHA Icons]({{ site.baseurl }}/resources/ocha-icons/).
 - New resource: [UI Icons]({{ site.baseurl }}/resources/ui-icons/).
+- New resource: [Newsletter Signup]({{ site.baseurl }}/resources/signup/).
 
 ### v0.3.0 (12/11/2014)
 - Replaced Hammer templates with a new Jekyll-based build.
