@@ -1,0 +1,179 @@
+/* ==========================================================================
+   Basic Style Reset/Adjustment
+   ========================================================================== */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #404040; }
+
+body, p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: normal;
+  color: #404040;
+  background-color: #ffffff; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 1em; }
+  p:last-child, blockquote:last-child, pre:last-child,
+  ul:last-child, ol:last-child, dl:last-child, figure:last-child {
+    margin-bottom: 0; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #8C8C8C;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 8px; }
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 14px; }
+
+/**
+ * Lists
+ */
+ul {
+  list-style: square; }
+
+menu, ol, ul {
+  padding: 0 0 0 24px; }
+
+/**
+ * Links
+ */
+a {
+  color: #2A93FC;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3; }
+  a:visited {
+    color: #399bfc; }
+  a:hover {
+    color: #2A93FC;
+    border-bottom-color: #FCDC5D; }
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #8C8C8C;
+  border-left: 6px solid #CCCCCC;
+  border-radius: 2px;
+  padding: 0.25em 0;
+  padding-left: 24px;
+  font-size: 1em;
+  font-style: italic; }
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 12px;
+  font-family: "Source Code Pro", "Consolas", "Lucida Console", monospace;
+  background-color: #fafafa;
+  border-radius: 2px;
+  padding: 0.125em 0.25em;
+  line-height: 1.4; }
+
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+  border-left: 6px solid #dfefff;
+  word-wrap: normal; }
+  pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal; }
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1em; }
+
+/**
+ * Clearfix
+ */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }

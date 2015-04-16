@@ -1,0 +1,191 @@
+.masthead {
+  position: relative;
+  background-color: #2A93FC;
+  border-bottom: 2px solid #037cf5;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+  min-height: 48px;
+  max-height: 94px;
+  /* Masthead Language Switcher */
+  /* Masthead CTA Button */
+  /* Masthead Search */ }
+  .masthead .wrapper {
+    position: relative; }
+  .masthead .wfp-logo {
+    margin: 0;
+    display: inline-block; }
+    .masthead .wfp-logo a {
+      border: none;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px; }
+    .masthead .wfp-logo .wfp-logo-img {
+      display: inline-block;
+      max-width: 100%;
+      width: auto;
+      margin: 0; }
+  .masthead .logo {
+    font-size: 1em;
+    margin: 0; }
+    .masthead .logo a {
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      text-decoration: none; }
+  .masthead .sub-logo {
+    padding: 0;
+    margin: -1em 0; }
+    .masthead .sub-logo .heading {
+      background-color: #1F6EBC;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 2px 0;
+      margin: 0;
+      padding: 1.5em 1em;
+      display: inline-block;
+      color: #fff; }
+  .masthead .additional {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-top: -1em; }
+    .masthead .additional > .component {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 1em; }
+      .masthead .additional > .component:last-child {
+        margin-right: 0; }
+  .masthead .header-lang {
+    font-size: 0.875em; }
+    .masthead .header-lang ul {
+      margin: 0;
+      padding: 0; }
+      .masthead .header-lang ul li {
+        display: inline-block;
+        padding: 0.25em 0.5em; }
+        .masthead .header-lang ul li a {
+          color: #fff;
+          padding: 0.125em 0;
+          border-bottom-color: transparent; }
+        .masthead .header-lang ul li:hover {
+          border-bottom-color: #fff; }
+  .masthead .header-cta .pure-button {
+    padding: 0.35em 0.7em;
+    border-radius: 0 0 2px 2px;
+    border: none; }
+  .masthead .header-search {
+    position: relative; }
+  .masthead .pure-form .input-search, .masthead .pure-form .input-search-inline {
+    border: none;
+    border-radius: 0 0 2px 2px;
+    background-color: #1F6EBC;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.25);
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out; }
+    .masthead .pure-form .input-search:focus, .masthead .pure-form .input-search-inline:focus {
+      outline: none;
+      background-color: #414243;
+      border-color: rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0px 1px 6px 0px rgba(255, 255, 255, 0.5), inset 0 1px 3px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 1px 6px 0px rgba(255, 255, 255, 0.5), inset 0 1px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 1px 6px 0px rgba(255, 255, 255, 0.5), inset 0 1px 3px rgba(0, 0, 0, 0.2); }
+    .masthead .pure-form .input-search::-webkit-input-placeholder, .masthead .pure-form .input-search-inline::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.75); }
+    .masthead .pure-form .input-search:-ms-input-placeholder, .masthead .pure-form .input-search-inline:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.75); }
+    .masthead .pure-form .input-search::-moz-placeholder, .masthead .pure-form .input-search-inline::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.75); }
+    .masthead .pure-form .input-search:-moz-placeholder, .masthead .pure-form .input-search-inline:-moz-placeholder {
+      color: rgba(255, 255, 255, 0.75); }
+    .masthead .pure-form .input-search + .pure-button, .masthead .pure-form .input-search-inline + .pure-button {
+      position: absolute;
+      color: #fff;
+      right: 0;
+      top: 0; }
+  .masthead .pure-form .input-search-inline {
+    border-radius: 2px;
+    margin-left: 0.5em; }
+
+/*
+  Masthead Main Navigation (single level)
+*/
+.masthead .main-nav {
+  display: block;
+  width: 100%;
+  text-align: right; }
+  .masthead .main-nav ul {
+    margin: 2em 0 0; }
+    .masthead .main-nav ul li {
+      display: inline-block;
+      margin-right: 1em; }
+      .masthead .main-nav ul li:last-child {
+        margin-right: 0; }
+      .masthead .main-nav ul li a {
+        color: #fff;
+        padding: 0.4em;
+        border-bottom: 2px solid transparent; }
+        .masthead .main-nav ul li a:hover {
+          border-bottom-color: #fff; }
+    .masthead .main-nav ul .profile-wrapper {
+      max-height: 48px;
+      background-color: #57aafd;
+      box-shadow: #4e98e3 0 2px 0 0; }
+
+/*
+  Narrow/Internal Masthead
+*/
+.narrow .wrapper {
+  padding: 0; }
+
+.narrow .logo-container {
+  padding: 1em; }
+
+.narrow .logo {
+  line-height: 1; }
+
+.narrow .navigation {
+  padding: 0 1em; }
+
+.narrow .navigation .main-nav ul {
+  margin: 0;
+  padding: 0; }
+
+.narrow .navigation .main-nav li {
+  margin-right: 0; }
+
+.narrow .navigation .main-nav a {
+  padding: 1em 0.75em;
+  font-size: 0.875em;
+  line-height: 1.45em;
+  display: block;
+  border: none; }
+
+.narrow .navigation .main-nav a:hover {
+  background-color: #1F6EBC;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 0; }
+
+.narrow .navigation .main-nav .active,
+.narrow .navigation .main-nav a:active {
+  background-color: #185490;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 2px 0; }
+
+.narrow .navigation .main-nav .pure-button {
+  padding: 0.35em 0.75em 0.4em;
+  color: #404040;
+  margin-left: 0.5em;
+  display: inline-block;
+  vertical-align: baseline; }
+
+.narrow .navigation .main-nav .input-search-inline {
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 1.5; }
+
+.narrow .navigation .main-nav .pure-button:hover {
+  color: inherit;
+  background-color: #f3f3f3;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 6px, inset rgba(255, 255, 255, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 6px, inset rgba(255, 255, 255, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 6px, inset rgba(255, 255, 255, 0.3) 0 1px 3px; }
