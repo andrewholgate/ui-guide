@@ -3,10 +3,16 @@ $(document).ready(function(){
   //  Instantiate FastClick
   $(function() { FastClick.attach(document.body); });
 
-  $('#js-nav-trigger').click(function(e){
-    var $menu = $('#js-main-nav');
-    $menu.toggleClass('open');
+  var nav = responsiveNav(".main-nav", {
+    customToggle: "js-nav-trigger",
+    navClass: "main-nav",
+    openPos: "fixed",
+    closedPos: "static"
   });
+
+  // $('#js-nav-close').click(function(){ nav.close(); });
+  var closeBtn = document.getElementById("js-nav-close");
+  closeBtn.onclick = function(){ nav.close(); return false; }
 
   $('#js-view-grid').click(function(e){
     e.preventDefault();

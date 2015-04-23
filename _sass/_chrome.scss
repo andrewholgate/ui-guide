@@ -6,55 +6,97 @@
   .wrapper {
     position: relative;
   }
-  .navigation {
-    text-align: right;
-    position: static;
-    .pure-button {
-      border: none;
-    }
-    .main-nav {
-      &.flyout {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        z-index: 10;
-        text-align: left;
-        background-color: $white;
-        padding-bottom: 0.5em;
-        @include box-shadow(rgba(0,0,0,0.3) 0 1px 16px);
 
-        &.open {
+  .nav-trigger {
+    @include media-query($md-screen) {
+      display: inline-block;
+    }
+  }
+
+  .main-nav {
+    &.flyout {
+      width: 100%;
+      z-index: 10;
+      text-align: left;
+      padding: 0;
+      @include box-shadow(rgba(0,0,0,0.3) 0 1px 16px);
+
+      @include media-query($md-screen) {
+        clip: auto;
+        top: 0;
+        right: 0;
+        position: fixed;
+        background-color: $grey;
+        min-height: 100vh;
+        max-height: 100%;
+        max-width: 320px;
+      }
+
+      .nav-close {
+        @include media-query($md-screen) {
           display: block;
         }
+      }
 
-        .pure-menu {
-          border: none;
-          padding: 0 0.5em;
-          border-bottom: 1em;
-          &-heading {
-            padding: 0.5em 0.75em;
-            margin-bottom: 0;
+      .pure-menu {
+        margin-bottom: 0.5em;
+        &-heading {
+          color: $grey-2;
+          border-bottom-color: $grey-3;
+          padding: 0.5em 1.5em;
+          margin-bottom: 0.5em;
+        }
+        .pure-menu-heading {
+          text-align: left;
+        }
+        ul {
+
+          @include media-query($md-screen) {
+            text-align: left;
           }
-          ul {
-            li {
-              margin: 0;
+          li {
+            @include media-query($md-screen) {
               display: block;
-              a {
+              width: 100%;
+            }
+            a {
+              display: block;
+              font-size: 1em;
+              padding: 0.5em 1.5em;
+              &.current {
+                background-color: $grey-contrast;
                 color: $text-color;
-                display: block;
-                font-size: inherit;
-                &.current {
-                  background-color: $grey-light;
-                }
-                &:hover {
-                  @include box-shadow(none);
-                }
+              }
+              &:hover {
+                @include box-shadow(none);
               }
             }
           }
         }
+      }
+    }
+  }
+}
+
+.js {
+  .main-nav {
+    &.closed {
+      @include media-query($md-screen) {
+        transform: translate3d(320px,0,0);
+        transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);
+      }
+    }
+    &.opened {
+      @include media-query($md-screen) {
+        transform: translate3d(0,0,0);
+        transition: transform 0.4s cubic-bezier(0.15, 1.23, 0.84, 1.04);
+        position: fixed;
+        width: 100%;
+        min-height: 100vh;
+        max-height: 100%;
+        max-width: 320px;
+        right: 0;
+        line-height: initial;
       }
     }
   }
