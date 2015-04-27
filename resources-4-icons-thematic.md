@@ -1,14 +1,18 @@
 ---
 layout: page
-title: OCHA icons
-permalink: /resources/ocha-icons/
+title: Thematic icons
+permalink: /resources/thematic-icons/
 resource: true
 categories: Resources
 ---
 
-The Office for the Coordination of Humanitarian Affairs (OCHA) has established icons to represent humanitarian assistance and to ensure consistency in use, these have been shared widely with UN agencies and NGOs. On this section we have listed those OCHA icons that WFP uses most frequently in addition to a few WFP-specific ones.
+The _Office for the Coordination of Humanitarian Affairs_ (OCHA) has established icons to represent humanitarian assistance and to ensure consistency in use, these have been shared widely with UN agencies and NGOs. On this section we have listed those OCHA icons that WFP uses most frequently in addition to a few WFP-specific ones.
 
 Each icon is available in either a positive (transparent) or a negative (solid) background, to suit your needs. You can download the whole icon set in a PNG format or the EPS source file below:
+
+<div class="notice">
+  <p>Need a Thematic icon not listed here? Send us a request via <a href="mailto:WFP.PUBLICATIONS@wfp.org?subject=Thematic%20icon%20request">wfp.publications@wfp.org</a>.</p>
+</div>
 
 <div class="pure-g">
   <div class="pure-u-3-4"></div>
